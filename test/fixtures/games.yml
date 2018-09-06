@@ -1,0 +1,21 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  minimum_players: 1
+  maximum_players: 1
+  minimum_playtime: 1
+  maximum_playtime: 1
+  typical_playtime: 1
+  age: 1
+  categories: 
+
+two:
+  name: MyString
+  minimum_players: 1
+  maximum_players: 1
+  minimum_playtime: 1
+  maximum_playtime: 1
+  typical_playtime: 1
+  age: 1
+  categories: 

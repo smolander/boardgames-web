@@ -1,0 +1,26 @@
+<h2> Search Board Game Geek </h2>
+
+<%= form_for :search, url: "new", method: "get" do |form| %>
+  <div class="field">
+    <%= form.text_field :bgg_search %>
+  </div>
+  <div class="actions">
+    <%= form.submit "Search"%>
+  </div>
+<% end %>
+
+<% if search_results %>
+  <%= form_tag("add_bgg", method: "post") do %>
+    <div class="field">
+      <%= collection_select('selector', 'id', search_results, :last, :first, {:include_hidden => false}, {:multiple => true})  %>
+
+
+    </div>
+    <div class="actions">
+      <%= submit_tag "Add" %>
+    </div>
+  <% end %>
+
+
+  </div>
+<% end %>

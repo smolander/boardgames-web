@@ -1,0 +1,44 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @game.name %>
+</p>
+
+<p>
+  <strong>Minimum players:</strong>
+  <%= @game.minimum_players %>
+</p>
+
+<p>
+  <strong>Maximum players:</strong>
+  <%= @game.maximum_players %>
+</p>
+
+<p>
+  <strong>Minimum playtime:</strong>
+  <%= @game.minimum_playtime %>
+</p>
+
+<p>
+  <strong>Maximum playtime:</strong>
+  <%= @game.maximum_playtime %>
+</p>
+
+<p>
+  <strong>Typical playtime:</strong>
+  <%= @game.typical_playtime %>
+</p>
+
+<p>
+  <strong>Age:</strong>
+  <%= @game.age %>
+</p>
+
+<!--<p>-->
+<!--  <strong>Categories:</strong>-->
+  <%#= @game.categories %>
+<!--</p>-->
+
+<%= link_to 'Edit', edit_game_path(@game) %> |
+<%= link_to 'Back', games_path %>
