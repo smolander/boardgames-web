@@ -1,6 +1,12 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
+#Testing
+gem 'rspec'
+gem 'database_cleaner'
+gem 'mongoid-rspec', '~> 4'
+gem 'shoulda-matchers'
+
 #User login
 gem 'devise'
 gem 'cancancan'
@@ -17,7 +23,10 @@ gem 'nokogiri'
 gem 'mongoid', '~> 6.0'
 gem 'bson_ext'
 
-ruby '2.4.4'
+#other
+gem 'awesome_print', require: 'ap'
+
+ruby '2.5.1'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.2.1'
@@ -66,3 +75,4 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+gem "rspec-rails", :group => [:development, :test]

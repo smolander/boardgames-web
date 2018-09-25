@@ -5,6 +5,7 @@ class GamesController < ApplicationController
   before_action :authenticate_user!
 
   def search_bgg(name)
+    ap "search_bgg"
     uri = "https://www.boardgamegeek.com/xmlapi/search?search=" + URI.encode(name)
     result = Nokogiri::HTML(open(uri))
 
@@ -142,6 +143,8 @@ class GamesController < ApplicationController
   # DELETE /games/1
   # DELETE /games/1.json
   def destroy
+    puts("DESTROYING")
+    ap(@game)
     @game.destroy
     respond_to do |format|
       format.html { redirect_to games_url, notice: 'Game was successfully destroyed.' }
@@ -152,7 +155,11 @@ class GamesController < ApplicationController
   private
     # Use callbacks to share common setup or constraints between actions.
     def set_game
-      @game = Game.find(params[:id])
+      if Game.where(id: params[:id]).exists?
+        @game = Game.find(params[:id])
+      else
+        @game = Game.new
+      end
     end
 
     # Never trust parameters from the scary internet, only allow the white list through.
