@@ -1,20 +1,26 @@
 <p id="notice"><%= notice %></p>
-
 <h1>Users</h1>
 
 <table>
   <thead>
     <tr>
-      <th colspan="3"></th>
+      <th>Email</th>
+      <th>Admin</th>
+      <th colspan="2"></th>
     </tr>
   </thead>
 
   <tbody>
     <% @users.each do |user| %>
       <tr>
-        <td><%= link_to 'Show', user %></td>
-        <td><%= link_to 'Edit', edit_user_path(user) %></td>
-        <td><%= link_to 'Destroy', user, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <%= form_with(model: user) do |form| %>
+          <td><%= form.text_field :email, value: user.email %></td>
+          <td><%= form.check_box "admin", :checked => user.roles.pluck(:name).include?("admin") %></td>
+          <% unless current_user == user %>
+            <td><%= form.submit %></td>
+            <td><%= link_to 'Destroy', user, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+          <% end %>
+        <% end %>
       </tr>
     <% end %>
   </tbody>

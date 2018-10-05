@@ -1,0 +1,3724 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Tasks SYSTEM "Tasks-6.0.dtd">
+<!-- eric6 tasks file for project BoardGame -->
+<!-- Saved: 2018-10-05, 09:16:07 -->
+<Tasks version="6.0">
+  <ProjectScanFilter></ProjectScanFilter>
+  <Task priority="1" completed="False" type="1" uid="{e866d26f-bb82-413b-81f9-5689c00ddf8d}">
+    <Summary>TODO: Tests demonstrating this.</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:56</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/actioncable-5.2.1/lib/action_cable/channel/streams.rb</Filename>
+      <Linenumber>133</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{b9deea4f-d6fa-446a-92aa-fece18daaf3f}">
+    <Summary>TODO: Tests demonstrating this.</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:56</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/actioncable-5.2.1/lib/action_cable/channel/streams.rb</Filename>
+      <Linenumber>145</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{fd859d67-4885-433d-8760-9f488fb1468f}">
+    <Summary>TODO: Room for optimization. Update transmit API to be coder-aware</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:56</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/actioncable-5.2.1/lib/action_cable/channel/streams.rb</Filename>
+      <Linenumber>147</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="0" uid="{7524218f-4a2f-4703-b6b7-2d64f4bb1fea}">
+    <Summary>FIXME: Change these files to symlinks once RubyGems 2.5.0 is required.</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:56</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/actioncable-5.2.1/lib/rails/generators/channel/channel_generator.rb</Filename>
+      <Linenumber>33</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="3" uid="{9ee2d628-5ad5-4775-80e0-d19092ad787d}">
+    <Summary>NOTE: Calling the same callback multiple times will overwrite previous callback definitions.</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:56</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/actionpack-5.2.1/lib/abstract_controller/callbacks.rb</Filename>
+      <Linenumber>22</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{8f293ab9-c8d0-445f-b7ac-89a7f83085d8}">
+    <Summary>TODO: Documentation</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:56</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/actionpack-5.2.1/lib/action_controller/metal/content_security_policy.rb</Filename>
+      <Linenumber>5</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="0" uid="{e54844ac-6183-4c45-854e-b06b0b2bd27e}">
+    <Summary>FIXME: lifted from Rack-Test. We should push this separation upstream.</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:56</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/actionpack-5.2.1/lib/action_controller/test_case.rb</Filename>
+      <Linenumber>137</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="0" uid="{f57b9cc0-6703-4cb9-859f-3e1461fb7163}">
+    <Summary>FIXME: tt.eclosure is not needed for the GTG</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:56</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/actionpack-5.2.1/lib/action_dispatch/journey/nfa/simulator.rb</Filename>
+      <Linenumber>29</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="3" uid="{67b7accb-c84e-4faf-9688-8f9e0db93084}">
+    <Summary>NOTE: The formatting and content of this middleware's output is intended for</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:56</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/actionpack-5.2.1/lib/action_dispatch/middleware/debug_locks.rb</Filename>
+      <Linenumber>20</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="3" uid="{39a2222f-6215-4f34-acfd-a3feaeadf4d4}">
+    <Summary>NOTE: Other URL helpers can be called in the block but be careful not to invoke</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:56</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/actionpack-5.2.1/lib/action_dispatch/routing/mapper.rb</Filename>
+      <Linenumber>2076</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="3" uid="{56d8f8cb-3fdf-4c37-a4f1-512bf664e3ca}">
+    <Summary>NOTE: The +direct+ method can't be used inside of a scope block such as</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:56</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/actionpack-5.2.1/lib/action_dispatch/routing/mapper.rb</Filename>
+      <Linenumber>2095</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="3" uid="{d8b23536-e3ea-42a3-9faa-6f3254e5d119}">
+    <Summary>NOTE: This custom behavior only applies to simple polymorphic URLs where</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:56</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/actionpack-5.2.1/lib/action_dispatch/routing/mapper.rb</Filename>
+      <Linenumber>2118</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="3" uid="{f8ea870e-eb41-4492-a4d2-3fd24fa36e49}">
+    <Summary>NOTE: The +resolve+ method can't be used inside of a scope block such as</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:56</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/actionpack-5.2.1/lib/action_dispatch/routing/mapper.rb</Filename>
+      <Linenumber>2147</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{6d037cda-3a6e-41c7-9e47-af6d08402db7}">
+    <Summary>TODO: These assertions should really work in an integration context</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:56</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/actionpack-5.2.1/lib/action_dispatch/testing/assertions/routing.rb</Filename>
+      <Linenumber>171</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="3" uid="{093f32ad-d70b-49d9-9483-58539b4c4ca6}">
+    <Summary>NOTE: rack-test v0.5 doesn't build a default uri correctly</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:56</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/actionpack-5.2.1/lib/action_dispatch/testing/integration.rb</Filename>
+      <Linenumber>261</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="3" uid="{92164de5-c026-4981-9e97-1fd9d42186bd}">
+    <Summary>NOTE: order of attributes is not specified.</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:56</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/actionview-5.2.1/lib/action_view/base.rb</Filename>
+      <Linenumber>99</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="2" uid="{ecbcfa8e-510e-41a2-b942-de5c5e0320d0}">
+    <Summary>WARNING: &lt;tt&gt;content_for&lt;/tt&gt; is ignored in caches. So you shouldn't use it for elements that will be fragment cached.</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:56</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/actionview-5.2.1/lib/action_view/helpers/capture_helper.rb</Filename>
+      <Linenumber>150</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="3" uid="{a1c78e3e-27eb-46e9-af88-aade3f86a3f3}">
+    <Summary>NOTE: Discarded selects will default to 1. So if no month select is available, January will be assumed.</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:56</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/actionview-5.2.1/lib/action_view/helpers/date_helper.rb</Filename>
+      <Linenumber>236</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="3" uid="{f070e459-d1c4-45d5-9531-265134029d93}">
+    <Summary>NOTE: Only the option tags are returned, you have to wrap this call in a regular HTML select tag.</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:56</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/actionview-5.2.1/lib/action_view/helpers/form_options_helper.rb</Filename>
+      <Linenumber>356</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="3" uid="{5996aaa7-f065-4bf5-9131-01f3932937c6}">
+    <Summary>NOTE: Only the option tags are returned, you have to wrap this call in</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:56</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/actionview-5.2.1/lib/action_view/helpers/form_options_helper.rb</Filename>
+      <Linenumber>573</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="3" uid="{32ebb026-f873-49f7-9342-d89b9df515ae}">
+    <Summary>NOTE: The HTML options &lt;tt&gt;disabled&lt;/tt&gt;, &lt;tt&gt;readonly&lt;/tt&gt;, and &lt;tt&gt;multiple&lt;/tt&gt; can all be treated as booleans. So specifying</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:56</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/actionview-5.2.1/lib/action_view/helpers/form_tag_helper.rb</Filename>
+      <Linenumber>14</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="3" uid="{40e00c29-e349-4486-848e-9b002fd4bcfa}">
+    <Summary>NOTE: Due to backwards compatibility concerns, the collection can't be one of hashes. Normally you'd also</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:56</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/actionview-5.2.1/lib/action_view/renderer/partial_renderer.rb</Filename>
+      <Linenumber>108</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="3" uid="{d8566158-7ba3-4e83-abcd-e2245e1aec72}">
+    <Summary>NOTE: Calling the same callback multiple times will overwrite previous callback definitions.</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:56</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/activejob-5.2.1/lib/active_job/callbacks.rb</Filename>
+      <Linenumber>18</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="3" uid="{6ec8576b-ae33-4814-a7f6-985f2ce9612c}">
+    <Summary>NOTE:</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:56</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/activejob-5.2.1/lib/active_job/queue_adapters.rb</Filename>
+      <Linenumber>58</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="3" uid="{1929dd55-0705-4fd1-aa98-5765f535914d}">
+    <Summary>NOTE: Calling the same callback multiple times will overwrite previous callback definitions.</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:56</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/activemodel-5.2.1/lib/active_model/callbacks.rb</Filename>
+      <Linenumber>62</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="3" uid="{253ff1c8-8abd-4301-8702-5d7c60313869}">
+    <Summary>NOTE: +method_name+ passed to define_model_callbacks must not end with</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:56</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/activemodel-5.2.1/lib/active_model/callbacks.rb</Filename>
+      <Linenumber>106</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="3" uid="{fce2af54-ff0d-4ce8-aadc-2f1ab1bbbe93}">
+    <Summary>NOTE: Calling +validate+ multiple times on the same method will overwrite previous definitions.</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:56</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/activemodel-5.2.1/lib/active_model/validations.rb</Filename>
+      <Linenumber>152</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="3" uid="{e79354db-8215-4a1f-b69c-3eefcd5019e6}">
+    <Summary>NOTE: This check is performed only if +password_confirmation+ is not</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:56</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/activemodel-5.2.1/lib/active_model/validations/confirmation.rb</Filename>
+      <Linenumber>60</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="3" uid="{60118872-19c9-4349-bacd-df91e4760262}">
+    <Summary>NOTE: &lt;tt&gt;required&lt;/tt&gt; is set to &lt;tt&gt;true&lt;/tt&gt; by default and is deprecated. If</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:56</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/activerecord-5.2.1/lib/active_record/associations.rb</Filename>
+      <Linenumber>1634</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="2" uid="{e761b421-a1cd-4830-a6e6-17047a6ccc61}">
+    <Summary>WARNING:&lt;/b&gt; If you're overwriting the table name of either class, the +table_name+ method</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:56</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/activerecord-5.2.1/lib/active_record/associations.rb</Filename>
+      <Linenumber>1788</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="2" uid="{d590193c-2930-4914-9818-11334009f8d9}">
+    <Summary>WARNING: Active Record does not support composite primary key.</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:56</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/activerecord-5.2.1/lib/active_record/attribute_methods/primary_key.rb</Filename>
+      <Linenumber>135</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="3" uid="{92c66dd4-a159-4da9-9f73-1b4e9cfaeb85}">
+    <Summary>NOTE: we rely on &lt;tt&gt;@available.poll&lt;/tt&gt; and +try_to_checkout_new_connection+ to</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:56</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract/connection_pool.rb</Filename>
+      <Linenumber>787</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="0" uid="{2c6589d0-7f8d-4b04-a7eb-69e4e0d31503}">
+    <Summary>FIXME: Remove this class as well</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:56</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/activerecord-5.2.1/lib/active_record/connection_adapters/abstract_adapter.rb</Filename>
+      <Linenumber>514</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="0" uid="{c6333553-561b-4712-b1ee-154404b33a93}">
+    <Summary>FIXME: this should probably split on +delim+ and use +subtype+</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:56</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/activerecord-5.2.1/lib/active_record/connection_adapters/postgresql/oid/vector.rb</Filename>
+      <Linenumber>18</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="3" uid="{3ceab55c-8c8b-44e3-9ee8-9b3b8aef759e}">
+    <Summary>NOTE: This is NOT an inverse of escape_bytea! This is only to be used</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:56</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/activerecord-5.2.1/lib/active_record/connection_adapters/postgresql/quoting.rb</Filename>
+      <Linenumber>13</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="2" uid="{0755babd-eac3-4fce-95c6-994f0ecfb568}">
+    <Summary>WARNING: Rails was not able to disable referential integrity.</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:56</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/activerecord-5.2.1/lib/active_record/connection_adapters/postgresql/referential_integrity.rb</Filename>
+      <Linenumber>22</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="0" uid="{3ee9505b-1a2b-4776-a59e-86fd5e284625}">
+    <Summary>FIXME: Remove this class, and the second argument to</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:56</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/activerecord-5.2.1/lib/active_record/connection_adapters/postgresql_adapter.rb</Filename>
+      <Linenumber>511</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="0" uid="{978ade65-6e56-4a05-9ec6-6f2ec4b78e5f}">
+    <Summary>FIXME: Apparently JK uses this.</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:56</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/activerecord-5.2.1/lib/active_record/fixtures.rb</Filename>
+      <Linenumber>535</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{fc103ccf-ce1b-4843-8bb2-cdf95c0df423}">
+    <Summary>TODO: Should be an AR::Base type class, or any?</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:56</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/activerecord-5.2.1/lib/active_record/fixtures.rb</Filename>
+      <Linenumber>783</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="0" uid="{f337911a-15ea-4733-86a6-0b470003540d}">
+    <Summary>FIXME: this is a horrible name</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:56</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/activerecord-5.2.1/lib/active_record/reflection.rb</Filename>
+      <Linenumber>310</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="0" uid="{f249e6d5-55fc-423a-91fd-5549d1330389}">
+    <Summary>FIXME: this is a horrible name</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:56</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/activerecord-5.2.1/lib/active_record/reflection.rb</Filename>
+      <Linenumber>973</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="3" uid="{3f3ef7f1-9b29-4862-9ee5-a7fc3704c760}">
+    <Summary>NOTE: It's not possible to set the order. That is automatically set to</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:56</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/activerecord-5.2.1/lib/active_record/relation/batches.rb</Filename>
+      <Linenumber>60</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="3" uid="{17c0406f-2496-4f0c-a598-56008dade353}">
+    <Summary>NOTE: By its nature, batch processing is subject to race conditions if</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:56</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/activerecord-5.2.1/lib/active_record/relation/batches.rb</Filename>
+      <Linenumber>65</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="3" uid="{136afff8-fa0f-46b8-8d25-a22b5342699b}">
+    <Summary>NOTE: It's not possible to set the order. That is automatically set to</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:56</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/activerecord-5.2.1/lib/active_record/relation/batches.rb</Filename>
+      <Linenumber>119</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="3" uid="{56063f61-ee9f-4b75-91e1-07fe9a00de4c}">
+    <Summary>NOTE: By its nature, batch processing is subject to race conditions if</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:56</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/activerecord-5.2.1/lib/active_record/relation/batches.rb</Filename>
+      <Linenumber>124</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="3" uid="{9fd80cae-eff9-478e-afdb-fc806676d229}">
+    <Summary>NOTE: If you are going to iterate through each record, you should call</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:56</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/activerecord-5.2.1/lib/active_record/relation/batches.rb</Filename>
+      <Linenumber>189</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="3" uid="{db53fb94-fc2e-476f-9310-b8ad5656c3e0}">
+    <Summary>NOTE: It's not possible to set the order. That is automatically set to</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:56</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/activerecord-5.2.1/lib/active_record/relation/batches.rb</Filename>
+      <Linenumber>194</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="3" uid="{b7b211e2-9a04-4de6-acbe-72a795ce06ed}">
+    <Summary>NOTE: By its nature, batch processing is subject to race conditions if</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:56</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/activerecord-5.2.1/lib/active_record/relation/batches.rb</Filename>
+      <Linenumber>199</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="3" uid="{7bd59a4c-8ac9-4173-bfae-bf556c877c0c}">
+    <Summary>NOTE: The returned records are in the same order as the ids you provide.</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:56</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/activerecord-5.2.1/lib/active_record/relation/finder_methods.rb</Filename>
+      <Linenumber>21</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="3" uid="{f012f8fc-c4cf-4676-a721-d786700da186}">
+    <Summary>NOTE: If you are using PostgreSQL specific columns like +hstore+ or +json+ there is no need for</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:56</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/activerecord-5.2.1/lib/active_record/store.rb</Filename>
+      <Linenumber>20</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="3" uid="{45f4b134-874a-4220-b703-e32fe9e8c3ac}">
+    <Summary>NOTE: The default validations with the exception of +uniqueness+ will work.</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:57</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/activerecord-5.2.1/lib/active_record/store.rb</Filename>
+      <Linenumber>26</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="2" uid="{24460f7c-a319-4098-9201-51e49d68dbd2}">
+    <Summary>WARNING: This validation must not be used on both ends of an association.</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:57</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/activerecord-5.2.1/lib/active_record/validations/associated.rb</Filename>
+      <Linenumber>30</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="3" uid="{ff94cdbf-3c0b-4c37-b88c-5880de2542ca}">
+    <Summary>NOTE: This validation will not fail if the association hasn't been</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:57</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/activerecord-5.2.1/lib/active_record/validations/associated.rb</Filename>
+      <Linenumber>33</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="3" uid="{2ead1df1-fa84-455b-a75d-037a59e6a979}">
+    <Summary>NOTE: This validation will not fail while using it with an association</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:57</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/activerecord-5.2.1/lib/active_record/validations/presence.rb</Filename>
+      <Linenumber>41</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="0" uid="{023e9fa9-3cbc-4d42-9a90-ced277542814}">
+    <Summary>FIXME: Change this file to a symlink once RubyGems 2.5.0 is required.</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:57</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/activerecord-5.2.1/lib/rails/generators/active_record/application_record/application_record_generator.rb</Filename>
+      <Linenumber>10</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="0" uid="{c7d7f75a-dd9e-4986-a742-52397ebbae5b}">
+    <Summary>FIXME: Limit this to a custom ActiveStorage error</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:57</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/activestorage-5.2.1/app/jobs/active_storage/purge_job.rb</Filename>
+      <Linenumber>5</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="0" uid="{f4116e10-f238-4c16-b8f5-9cd5e36fa19d}">
+    <Summary>FIXME: Download in chunks when given a block.</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:57</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/activestorage-5.2.1/lib/active_storage/service/gcs_service.rb</Filename>
+      <Linenumber>34</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="0" uid="{1781e3dc-7171-48ae-9ba4-f0530875bf6d}">
+    <Summary>FIXME: Convert to be threaded</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:57</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/activestorage-5.2.1/lib/active_storage/service/mirror_service.rb</Filename>
+      <Linenumber>49</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="3" uid="{1960740f-14f2-4412-a4aa-48a1ba4a5d83}">
+    <Summary>NOTE: The :local timezone is Ruby's *process* timezone, i.e. ENV['TZ'].</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:57</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/activesupport-5.2.1/lib/active_support/core_ext/date/conversions.rb</Filename>
+      <Linenumber>79</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="3" uid="{8df2913f-92ad-4c6c-9a31-fbe8a2693db3}">
+    <Summary>NOTE: With Ruby 2.4+ the default for +to_time+ changed from</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:57</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/activesupport-5.2.1/lib/active_support/core_ext/date_and_time/compatibility.rb</Filename>
+      <Linenumber>9</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{a115763f-079f-45c5-b080-a48cb86c1484}">
+    <Summary>TODO: Remove this file when supporting only Ruby 2.4+.</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:57</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/activesupport-5.2.1/lib/active_support/core_ext/hash/transform_values.rb</Filename>
+      <Linenumber>31</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{e080c8cc-df67-4158-a129-37819b080bb1}">
+    <Summary>TODO: Remove this file when we drop support to ruby &lt; 2.3</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:57</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/activesupport-5.2.1/lib/active_support/core_ext/numeric/inquiry.rb</Filename>
+      <Linenumber>3</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="3" uid="{437491d8-51d2-4002-aefb-b9704a28de28}">
+    <Summary>NOTE: Each nesting level will merge inherited defaults in addition to their own.</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:57</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/activesupport-5.2.1/lib/active_support/core_ext/object/with_options.rb</Filename>
+      <Linenumber>53</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="3" uid="{89103ca7-654f-4c7b-9268-973363fa7e07}">
+    <Summary>NOTE: You cannot call class methods implicitly inside of with_options.</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:57</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/activesupport-5.2.1/lib/active_support/core_ext/object/with_options.rb</Filename>
+      <Linenumber>67</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="3" uid="{7dddfa13-ebe4-40eb-97f6-135f85e8c16e}">
+    <Summary>NOTE: An above example is useful for pre Ruby 2.4. Ruby 2.4 supports Unicode case mappings.</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:57</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/activesupport-5.2.1/lib/active_support/core_ext/string/multibyte.rb</Filename>
+      <Linenumber>19</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="2" uid="{a4d9ce49-0379-45e2-ae25-d242772e8b71}">
+    <Summary>WARNING: this helper only works with valid JSON. Using this on non-JSON values</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:57</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/activesupport-5.2.1/lib/active_support/core_ext/string/output_safety.rb</Filename>
+      <Linenumber>98</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="3" uid="{9da13412-4895-41cd-84b3-c62d0577a409}">
+    <Summary>NOTE: This won't affect any &lt;tt&gt;ActiveSupport::TimeWithZone&lt;/tt&gt;</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:57</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/activesupport-5.2.1/lib/active_support/core_ext/time/zones.rb</Filename>
+      <Linenumber>58</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{8d0311b4-3d4a-46eb-a6c0-9863e3f2e708}">
+    <Summary>TODO: Are we actually sure that ASCII == UTF-8?</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:57</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/activesupport-5.2.1/lib/active_support/core_ext/uri.rb</Filename>
+      <Linenumber>9</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="2" uid="{79934d1d-c2ec-4fd7-a515-4d8591ae1ffd}">
+    <Summary>WARNING: PLANETS is deprecated! Use PLANETS_POST_2006 instead.</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:57</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/activesupport-5.2.1/lib/active_support/deprecation/constant_accessor.rb</Filename>
+      <Linenumber>25</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="2" uid="{1b6f35c8-9798-44a8-a126-79f5af6e6007}">
+    <Summary>WARNING: aaa is deprecated and will be removed from Rails 5.1. (called from irb_binding at (irb):10)</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:57</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/activesupport-5.2.1/lib/active_support/deprecation/method_wrappers.rb</Filename>
+      <Linenumber>24</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="2" uid="{287c56e7-723d-40ba-acc5-d9b828679089}">
+    <Summary>WARNING: bbb is deprecated and will be removed from Rails 5.1 (use zzz instead). (called from irb_binding at (irb):11)</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:57</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/activesupport-5.2.1/lib/active_support/deprecation/method_wrappers.rb</Filename>
+      <Linenumber>28</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="2" uid="{c01eac7e-f98b-47a4-8e2a-fd03f901e377}">
+    <Summary>WARNING: ccc is deprecated and will be removed from Rails 5.1 (use Bar#ccc instead). (called from irb_binding at (irb):12)</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:57</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/activesupport-5.2.1/lib/active_support/deprecation/method_wrappers.rb</Filename>
+      <Linenumber>32</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="2" uid="{359ae1fe-fa19-4c0b-8dc8-6e52a6d8d8f0}">
+    <Summary>WARNING: ddd is deprecated and will be removed from MyGem next-release (use zzz instead). (called from irb_binding at (irb):15)</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:57</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/activesupport-5.2.1/lib/active_support/deprecation/method_wrappers.rb</Filename>
+      <Linenumber>41</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="2" uid="{0783ad8c-8040-4cdb-bb6a-3429754efa8b}">
+    <Summary>WARNING: eee is deprecated and will be removed from MyGem next-release (use zzz instead). (called from irb_binding at (irb):18)</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:57</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/activesupport-5.2.1/lib/active_support/deprecation/method_wrappers.rb</Filename>
+      <Linenumber>50</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="2" uid="{a0a970d0-1465-4ef1-b55e-208e07430b71}">
+    <Summary>WARNING: This object is now deprecated.</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:57</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/activesupport-5.2.1/lib/active_support/deprecation/proxy_wrappers.rb</Filename>
+      <Linenumber>38</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="2" uid="{00515b58-fd09-4cbb-bbfb-d7dd2c825b28}">
+    <Summary>WARNING: @request is deprecated! Call request.to_s instead of</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:57</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/activesupport-5.2.1/lib/active_support/deprecation/proxy_wrappers.rb</Filename>
+      <Linenumber>83</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="2" uid="{12efaa5c-b6d6-4831-aaf1-9e39f88325d8}">
+    <Summary>WARNING: PLANETS is deprecated! Use PLANETS_POST_2006 instead.</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:57</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/activesupport-5.2.1/lib/active_support/deprecation/proxy_wrappers.rb</Filename>
+      <Linenumber>122</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="2" uid="{4e3bdfc2-fe81-4aa3-a4aa-33d52bcefaf7}">
+    <Summary>WARNING: something broke! (called from your_code.rb:1)&quot;</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:57</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/activesupport-5.2.1/lib/active_support/deprecation/reporting.rb</Filename>
+      <Linenumber>17</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="2" uid="{af207495-d921-4ca9-8e10-786739b96246}">
+    <Summary>WARNING: something broke! (called from your_code.rb:1)&quot;</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:57</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/activesupport-5.2.1/lib/active_support/deprecation/reporting.rb</Filename>
+      <Linenumber>30</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="2" uid="{8811a7b2-5dc1-4cfd-b53f-74c08a055e53}">
+    <Summary>WARNING: #{message} #{deprecation_caller_message(callstack)}&quot;</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:57</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/activesupport-5.2.1/lib/active_support/deprecation/reporting.rb</Filename>
+      <Linenumber>70</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="2" uid="{11098ad6-2b50-46d3-aae5-55c032a510a2}">
+    <Summary>WARNING: The instrumentation framework is designed for long-running subscribers,</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:57</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/activesupport-5.2.1/lib/active_support/notifications.rb</Filename>
+      <Linenumber>117</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="3" uid="{13de59a9-50d1-4439-9f6e-fb5a85c7d184}">
+    <Summary>NOTE: This approach has been deprecated for end-user code in favor of {thread_mattr_accessor}[rdoc-ref:Module#thread_mattr_accessor] and friends.</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:57</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/activesupport-5.2.1/lib/active_support/per_thread_registry.rb</Filename>
+      <Linenumber>6</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{61587416-d44d-4d27-84aa-9303eec65f49}">
+    <Summary>TODO: Add support for other encodings</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:57</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/activesupport-5.2.1/lib/active_support/xml_mini.rb</Filename>
+      <Linenumber>172</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{d52cf649-3b25-40a1-9b24-53154563e94b}">
+    <Summary>TODO: This is sending me into fits trying to shoe-horn this into</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:57</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/addressable-2.5.2/lib/addressable/template.rb</Filename>
+      <Linenumber>668</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="3" uid="{7c2b1185-38c3-464f-b784-509db4ccbde5}">
+    <Summary>NOTE: We want offset 4, not 3!</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:57</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/addressable-2.5.2/lib/addressable/uri.rb</Filename>
+      <Linenumber>203</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="3" uid="{07f4200b-574d-4d69-9552-58d8b563bd30}">
+    <Summary>NOTE: This method does not attempt to fully conform to specifications.</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:57</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/addressable-2.5.2/lib/addressable/uri.rb</Filename>
+      <Linenumber>2113</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="3" uid="{15499f80-1cd6-49d0-80d0-9d4bad2fb057}">
+    <Summary>NOTE:&lt;/b&gt; This object is NOT thread safe.</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:57</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/archive-zip-0.11.0/lib/archive/support/iowindow.rb</Filename>
+      <Linenumber>8</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="3" uid="{9c0ae2d4-abae-4b44-bf89-d91d8fb7b508}">
+    <Summary>NOTE:&lt;/b&gt; Due to limitations in Ruby's finalization capabilities, the</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:57</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/archive-zip-0.11.0/lib/archive/support/zlib.rb</Filename>
+      <Linenumber>135</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="3" uid="{ddb6fd8b-18cc-4e20-857a-bd8722a65e80}">
+    <Summary>NOTE:&lt;/b&gt; Refer to the documentation of #new concerning _window_bits_</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:57</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/archive-zip-0.11.0/lib/archive/support/zlib.rb</Filename>
+      <Linenumber>160</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="3" uid="{3aa5a3da-ff34-4437-ae0d-54bfcd2a2d07}">
+    <Summary>NOTE:&lt;/b&gt; Anything still in the internal write buffer has not been</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:57</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/archive-zip-0.11.0/lib/archive/support/zlib.rb</Filename>
+      <Linenumber>163</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="3" uid="{4a87c7f6-8b2a-4ea5-8147-014ea0641e08}">
+    <Summary>NOTE:&lt;/b&gt; This value is only updated when both the internal write</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:57</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/archive-zip-0.11.0/lib/archive/support/zlib.rb</Filename>
+      <Linenumber>195</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="3" uid="{566b2ad6-0c89-4442-84dc-d3173a320609}">
+    <Summary>NOTE:&lt;/b&gt; This value is only updated when the internal write buffer is</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:57</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/archive-zip-0.11.0/lib/archive/support/zlib.rb</Filename>
+      <Linenumber>206</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="3" uid="{4b073679-f68d-4570-8a48-7f34120eba47}">
+    <Summary>NOTE:&lt;/b&gt; Due to limitations in Ruby's finalization capabilities, the</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:57</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/archive-zip-0.11.0/lib/archive/support/zlib.rb</Filename>
+      <Linenumber>345</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="3" uid="{b01eeae6-a00f-4da7-a448-01a015a9b478}">
+    <Summary>NOTE:&lt;/b&gt; Refer to the documentation of #new concerning _window_bits_</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:57</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/archive-zip-0.11.0/lib/archive/support/zlib.rb</Filename>
+      <Linenumber>372</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="3" uid="{ee663b52-b497-40eb-9738-0ff437286b47}">
+    <Summary>NOTE:&lt;/b&gt; The contents of the internal read buffer are immediately</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:57</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/archive-zip-0.11.0/lib/archive/support/zlib.rb</Filename>
+      <Linenumber>375</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="3" uid="{2cbb33f7-7790-4a24-b916-96e1d8904f68}">
+    <Summary>NOTE:&lt;/b&gt; This value is updated whenever the internal read buffer needs</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:57</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/archive-zip-0.11.0/lib/archive/support/zlib.rb</Filename>
+      <Linenumber>397</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="3" uid="{9635c84b-036d-47ce-a578-53d955e40d68}">
+    <Summary>NOTE:&lt;/b&gt; This value is updated whenever the internal read buffer needs</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:57</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/archive-zip-0.11.0/lib/archive/support/zlib.rb</Filename>
+      <Linenumber>405</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="3" uid="{2e9beed7-912a-40d2-9298-ad393254faec}">
+    <Summary>NOTE:&lt;/b&gt; No attempt is made to prevent adding multiple entries with</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:57</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/archive-zip-0.11.0/lib/archive/zip.rb</Filename>
+      <Linenumber>57</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="3" uid="{ed3ed0d2-63d5-4935-b4ba-c293fb212e07}">
+    <Summary>NOTE:&lt;/b&gt; The #close method must be called in order to save any</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:57</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/archive-zip-0.11.0/lib/archive/zip.rb</Filename>
+      <Linenumber>128</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="3" uid="{7534792e-7b79-4c96-82fe-4ef7cc190caf}">
+    <Summary>NOTE:&lt;/b&gt; The underlying stream is only closed if the archive was</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:57</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/archive-zip-0.11.0/lib/archive/zip.rb</Filename>
+      <Linenumber>165</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="3" uid="{c1c85de6-0dd0-4d23-b270-d0cf62970efc}">
+    <Summary>NOTE:&lt;/b&gt; No attempt is made to prevent adding multiple entries with</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:57</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/archive-zip-0.11.0/lib/archive/zip.rb</Filename>
+      <Linenumber>218</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="3" uid="{bfb22cd9-758d-4d78-a5d6-87740c7ef320}">
+    <Summary>NOTE:&lt;/b&gt; Unless</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:57</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/archive-zip-0.11.0/lib/archive/zip.rb</Filename>
+      <Linenumber>258</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="3" uid="{a49dba93-d16c-49ac-9008-82d7571e861b}">
+    <Summary>NOTE:&lt;/b&gt; If</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:57</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/archive-zip-0.11.0/lib/archive/zip.rb</Filename>
+      <Linenumber>274</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="3" uid="{68d208ae-c457-4115-9704-b615cb1f89fe}">
+    <Summary>NOTE:&lt;/b&gt; No attempt is made to prevent adding multiple entries with</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:57</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/archive-zip-0.11.0/lib/archive/zip.rb</Filename>
+      <Linenumber>292</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="3" uid="{1b1c1a30-b7c2-4620-9a8a-f3d84c5a7f56}">
+    <Summary>NOTE:&lt;/b&gt; For now _io_ MUST be seekable.</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:57</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/archive-zip-0.11.0/lib/archive/zip.rb</Filename>
+      <Linenumber>658</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="3" uid="{a1783759-1d20-4b4d-925e-f4fe2b56b04d}">
+    <Summary>NOTE: A cleverly crafted comment could throw this thing off if the</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:57</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/archive-zip-0.11.0/lib/archive/zip.rb</Filename>
+      <Linenumber>684</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="3" uid="{5aac46e5-92d8-48ed-90d8-3cc96572e08a}">
+    <Summary>NOTE:&lt;/b&gt; The signature of this method will have to change in order to</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:57</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/archive-zip-0.11.0/lib/archive/zip/codec.rb</Filename>
+      <Linenumber>36</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="3" uid="{3562f1e2-6042-4c71-86d7-97a5724f8d10}">
+    <Summary>NOTE:&lt;/b&gt; Anything still in the internal write buffer has not been</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:57</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/archive-zip-0.11.0/lib/archive/zip/codec/deflate.rb</Filename>
+      <Linenumber>50</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="3" uid="{cdbe96c1-9c06-44db-b058-b033366e9734}">
+    <Summary>NOTE:&lt;/b&gt; The contents of the internal read buffer are immediately</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:57</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/archive-zip-0.11.0/lib/archive/zip/codec/deflate.rb</Filename>
+      <Linenumber>125</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="3" uid="{2d7229e3-4995-4f2d-b092-bf2e3b1be459}">
+    <Summary>NOTE:&lt;/b&gt; The compressed_size attribute is not checked because</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:57</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/archive-zip-0.11.0/lib/archive/zip/data_descriptor.rb</Filename>
+      <Linenumber>30</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="3" uid="{50e41605-6cdc-43a1-9427-2366aea4b506}">
+    <Summary>NOTE:&lt;/b&gt; For now _io_ MUST be seekable.</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:57</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/archive-zip-0.11.0/lib/archive/zip/entry.rb</Filename>
+      <Linenumber>208</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="3" uid="{4d8d3285-af81-4012-84b3-3d3836f53671}">
+    <Summary>NOTE:&lt;/b&gt; This method should only be called by Archive::Zip.</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:57</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/archive-zip-0.11.0/lib/archive/zip/entry.rb</Filename>
+      <Linenumber>591</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="3" uid="{13162678-ea4e-465e-8f41-547e673c908e}">
+    <Summary>NOTE:&lt;/b&gt; This method should only be called by Archive::Zip.</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:57</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/archive-zip-0.11.0/lib/archive/zip/entry.rb</Filename>
+      <Linenumber>693</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="3" uid="{3937961d-2e55-40c6-ba20-35ac5642f882}">
+    <Summary>NOTE: Ruby does not have the ability to restore atime and mtime on</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:57</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/archive-zip-0.11.0/lib/archive/zip/entry.rb</Filename>
+      <Linenumber>979</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="3" uid="{842ebc1c-e6ec-4a90-8c2a-3feba723fb19}">
+    <Summary>NOTE:&lt;/b&gt; It is the responsibility of the user of this attribute to</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:57</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/archive-zip-0.11.0/lib/archive/zip/entry.rb</Filename>
+      <Linenumber>1061</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="3" uid="{b87c78c0-79b1-4fe8-b7b1-3e6b7e04f0cf}">
+    <Summary>NOTE:&lt;/b&gt; As a side effect, the +file_path+ and +raw_data+ attributes</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:57</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/archive-zip-0.11.0/lib/archive/zip/entry.rb</Filename>
+      <Linenumber>1088</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{ecbc8bb1-09b5-40ae-a855-2390cde53e0a}">
+    <Summary>TODO:</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:57</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/archive-zip-0.11.0/spec/binary_stringio/new_spec.rb</Filename>
+      <Linenumber>20</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="0" uid="{f83a43ae-a895-4426-a1e0-7c160e1d4aa6}">
+    <Summary>FIXME: Function + Alias can be rewritten as a Function and Alias node.</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:57</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/arel-9.0.0/lib/arel/nodes.rb</Filename>
+      <Linenumber>41</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="0" uid="{9cbda2c7-2a1b-49a3-bf3f-6ef4ad4362fa}">
+    <Summary>FIXME: this method should go away.  I don't like people calling</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:57</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/arel-9.0.0/lib/arel/nodes/node.rb</Filename>
+      <Linenumber>42</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="0" uid="{decfc269-d699-42d0-ad33-2cdba824b67f}">
+    <Summary>FIXME: We SHOULD NOT be converting these to SqlLiteral automatically</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:57</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/arel-9.0.0/lib/arel/nodes/window.rb</Filename>
+      <Linenumber>14</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="0" uid="{201e435f-91f3-4667-88b0-467e9d7770a9}">
+    <Summary>FIXME: We SHOULD NOT be converting these to SqlLiteral automatically</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:57</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/arel-9.0.0/lib/arel/nodes/window.rb</Filename>
+      <Linenumber>22</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="0" uid="{896a2053-f34b-4946-b76a-73212ff3e4a9}">
+    <Summary>FIXME: backwards compat</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:57</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/arel-9.0.0/lib/arel/select_manager.rb</Filename>
+      <Linenumber>79</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="0" uid="{8706ca95-5ebb-4d60-bf62-3c98d1cc7a8f}">
+    <Summary>FIXME: converting these to SQLLiterals is probably not good, but</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:57</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/arel-9.0.0/lib/arel/select_manager.rb</Filename>
+      <Linenumber>134</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="0" uid="{af3cdbb4-284c-453b-b965-54ba6d05d3a0}">
+    <Summary>FIXME: We SHOULD NOT be converting these to SqlLiteral automatically</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:57</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/arel-9.0.0/lib/arel/select_manager.rb</Filename>
+      <Linenumber>169</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="0" uid="{cb4cfaf1-58d2-4f8f-8964-6b32aba8caea}">
+    <Summary>FIXME: Don't do this automatically</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:57</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/arel-9.0.0/lib/arel/select_manager.rb</Filename>
+      <Linenumber>255</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="0" uid="{121eaf5e-8e52-4fec-bbac-df226ee53912}">
+    <Summary>FIXME: we should probably have a 2-pass visitor for this</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:57</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/arel-9.0.0/lib/arel/visitors/to_sql.rb</Filename>
+      <Linenumber>90</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="0" uid="{df5031a2-b750-475e-86a3-9a6fe6529d0c}">
+    <Summary>FIXME: this does nothing on most databases, but does on MSSQL</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:57</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/arel-9.0.0/lib/arel/visitors/to_sql.rb</Filename>
+      <Linenumber>411</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="3" uid="{b687a203-239d-4eea-aa82-d6e1098bdc72}">
+    <Summary>NOTE: by default only instance attributes (i.e. columns) are shown. To format</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:57</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/awesome_print-1.8.0/lib/awesome_print/ext/active_record.rb</Filename>
+      <Linenumber>34</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="3" uid="{9ebb6f95-571c-46f3-98fa-e90a61252cc1}">
+    <Summary>NOTE: by default only instance attributes (i.e. keys) are shown. To format</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:57</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/awesome_print-1.8.0/lib/awesome_print/ext/mongo_mapper.rb</Filename>
+      <Linenumber>60</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="3" uid="{419f4dad-8704-4c1d-8e45-b9d88df584bc}">
+    <Summary>NOTE: by default only instance attributes are shown. To format a Ripple document instance</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:57</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/awesome_print-1.8.0/lib/awesome_print/ext/ripple.rb</Filename>
+      <Linenumber>32</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="3" uid="{2dd9019b-80b1-4b65-b354-f099ce103a3b}">
+    <Summary>NOTE: To successfully run specs with Ruby 1.8.6 the older versions of</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:57</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/awesome_print-1.8.0/spec/spec_helper.rb</Filename>
+      <Linenumber>11</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{aed9e013-756c-4767-9bfc-3ff9df8cb46a}">
+    <Summary>TODO: Make specs not order dependent</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:57</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/awesome_print-1.8.0/spec/spec_helper.rb</Filename>
+      <Linenumber>43</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{e5e8cd90-fa9f-4a22-92a8-bf020204e55e}">
+    <Summary>TODO: Remove once Ruby 2.2 support is dropped.</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:57</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/bootsnap-1.3.2/lib/bootsnap/load_path_cache/cache.rb</Filename>
+      <Linenumber>11</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="3" uid="{4cb357ed-a445-4be3-8cab-0972620542f1}">
+    <Summary>NOTE: This may defeat LoadedFeaturesIndex, but it's not immediately</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:57</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/bootsnap-1.3.2/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb</Filename>
+      <Linenumber>69</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{c9bf8e3a-1aef-4063-ad4a-7fac7f7ef894}">
+    <Summary>TODO: Remove once Ruby 2.2 support is dropped.</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:57</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/bootsnap-1.3.2/lib/bootsnap/load_path_cache/loaded_features_index.rb</Filename>
+      <Linenumber>27</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="3" uid="{05a9c42a-30e8-45c9-be89-7473756663e6}">
+    <Summary>NOTE: order of attributes is not specified.</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:58</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/builder-3.2.3/lib/builder/xmlmarkup.rb</Filename>
+      <Linenumber>33</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="3" uid="{6bbbc8d9-f4f6-4056-8831-5a2a4bb5522c}">
+    <Summary>NOTE: All private methods of a builder object are prefixed when</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:58</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/builder-3.2.3/lib/builder/xmlmarkup.rb</Filename>
+      <Linenumber>276</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="3" uid="{06772f58-8d01-4130-a1aa-36a158216080}">
+    <Summary>NOTE: NameError is acceptable because the lack of a '.' means that</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:58</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/builder-3.2.3/test/test_blankslate.rb</Filename>
+      <Linenumber>90</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{9d22e4e0-a00a-4fa6-b32e-befe374a5384}">
+    <Summary>TODO: this should be private</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:58</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/cancancan-2.3.0/lib/cancan/model_adapters/active_record_4_adapter.rb</Filename>
+      <Linenumber>9</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{a37f743c-1f11-49ff-8338-e0a97affe2b1}">
+    <Summary>TODO: this should be private</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:58</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/cancancan-2.3.0/lib/cancan/model_adapters/active_record_4_adapter.rb</Filename>
+      <Linenumber>14</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{d8e684c1-f361-4eb4-aace-0f6697a7096b}">
+    <Summary>TODO: remove</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:58</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/capybara-3.8.1/lib/capybara/node/matchers.rb</Filename>
+      <Linenumber>527</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{d57e84a4-a113-4355-8581-2e2dd9d4e542}">
+    <Summary>TODO: remove</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:58</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/capybara-3.8.1/lib/capybara/node/matchers.rb</Filename>
+      <Linenumber>536</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{4eee1b53-3ad7-4331-aad5-4f652da87d79}">
+    <Summary>TODO: identify the click button here (in document order, rather</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:58</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/capybara-3.8.1/lib/capybara/rack_test/form.rb</Filename>
+      <Linenumber>89</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{2146ee3c-8df3-4c9b-80be-1f1e65d92f91}">
+    <Summary>TODO: this would be better if locale can be detected and correct keystrokes sent</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:58</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/capybara-3.8.1/lib/capybara/selenium/node.rb</Filename>
+      <Linenumber>258</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{fd4631a1-60a9-4b8e-ae79-52451fcb4456}">
+    <Summary>TODO: this would be better if locale can be detected and correct keystrokes sent</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:58</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/capybara-3.8.1/lib/capybara/selenium/node.rb</Filename>
+      <Linenumber>265</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{0da02709-eb5d-4c82-b9eb-e4d4735a0751}">
+    <Summary>TODO: this would be better if locale can be detected and correct keystrokes sent</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:58</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/capybara-3.8.1/lib/capybara/selenium/node.rb</Filename>
+      <Linenumber>272</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{4aa92ba3-24c8-477d-9189-1b0872ab1420}">
+    <Summary>TODO: consider not supporting symbol for the CSS selector.</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:58</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/capybara-3.8.1/lib/capybara/spec/session/has_css_spec.rb</Filename>
+      <Linenumber>16</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{1fe8fdf6-afd1-4ae3-8499-c055a0a491f7}">
+    <Summary>TODO: travis with jruby in container mode has an issue with this test</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:58</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/capybara-3.8.1/spec/server_spec.rb</Filename>
+      <Linenumber>22</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="3" uid="{270cc845-e715-412f-8985-d441964ccf64}">
+    <Summary>NOTE: Although Capybara.SpecHelper.reset! sets Capybara.disable_animation to false,</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:58</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/capybara-3.8.1/spec/shared_selenium_session.rb</Filename>
+      <Linenumber>348</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="3" uid="{87ba4405-d4d0-4f57-945b-45ca8ebeda61}">
+    <Summary>NOTE: Although Capybara.SpecHelper.reset! sets Capybara.disable_animation to false,</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:58</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/capybara-3.8.1/spec/shared_selenium_session.rb</Filename>
+      <Linenumber>373</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="3" uid="{f61ad05c-a5b4-45a8-8173-5bc41174c7b4}">
+    <Summary>NOTE: Although Capybara.SpecHelper.reset! sets Capybara.disable_animation to false,</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:58</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/capybara-3.8.1/spec/shared_selenium_session.rb</Filename>
+      <Linenumber>398</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{12b88eef-6d83-4753-be39-fbcaf66474e1}">
+    <Summary>TODO: report this to JRuby</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:58</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/childprocess-0.9.0/lib/childprocess/unix/posix_spawn_process.rb</Filename>
+      <Linenumber>47</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{4053d562-f998-4240-83c8-eafb4a41847f}">
+    <Summary>TODO: not sure this matches exec() behaviour</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:58</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/childprocess-0.9.0/lib/childprocess/unix/posix_spawn_process.rb</Filename>
+      <Linenumber>53</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{1e0062fa-df7f-4025-b5b4-e51bba16d58b}">
+    <Summary>TODO: add tests for other OSs</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:58</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/childprocess-0.9.0/spec/childprocess_spec.rb</Filename>
+      <Linenumber>306</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{7e46733d-390e-47dc-9563-4394b98f08b4}">
+    <Summary>TODO: why are we bounds checking?</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:58</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/concurrent-ruby-1.0.5/lib/concurrent/collection/map/atomic_reference_map_backend.rb</Filename>
+      <Linenumber>279</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="2" uid="{aaf08cbe-2965-4a87-978f-541d1d7e5660}">
+    <Summary>WARNING: all public methods of the class must operate on the @backend</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:58</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/concurrent-ruby-1.0.5/lib/concurrent/collection/map/non_concurrent_map_backend.rb</Filename>
+      <Linenumber>11</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="2" uid="{728b6792-2ada-45f7-8a2c-4e2c2801337d}">
+    <Summary>WARNING: Mutex_m is a non-reentrant lock, so the synchronized methods are</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:58</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/concurrent-ruby-1.0.5/lib/concurrent/collection/map/synchronized_map_backend.rb</Filename>
+      <Linenumber>13</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="3" uid="{bb4e207e-5c9d-47c8-a76f-4e406248216e}">
+    <Summary>NOTE: This module is going away in 2.0. In the mean time we need it to</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:58</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/concurrent-ruby-1.0.5/lib/concurrent/concern/dereferenceable.rb</Filename>
+      <Linenumber>12</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="3" uid="{e0027b43-6632-4d65-8839-3214634ddcd7}">
+    <Summary>NOTE: Cannot require 'concurrent/configuration' above due to circular references.</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:58</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/concurrent-ruby-1.0.5/lib/concurrent/concern/logging.rb</Filename>
+      <Linenumber>18</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="3" uid="{8353b9e6-ea3a-4c7a-a05e-706822230f3f}">
+    <Summary>NOTE: The Dereferenceable module is going away in 2.0. In the mean time</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:58</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/concurrent-ruby-1.0.5/lib/concurrent/concern/obligation.rb</Filename>
+      <Linenumber>12</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="3" uid="{4885a4c0-c97a-4783-90fc-ea2e9e6fe4cb}">
+    <Summary>NOTE: Because the global thread pools are lazy-loaded with these objects</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:58</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/concurrent-ruby-1.0.5/lib/concurrent/delay.rb</Filename>
+      <Linenumber>47</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{ffa43d9b-15ab-4397-896f-d4d9304ec13f}">
+    <Summary>TODO: this only adds padding after the :value slot, need to find a way to add padding before the slot</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:58</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/concurrent-ruby-1.0.5/lib/concurrent/thread_safe/util/striped64.rb</Filename>
+      <Linenumber>89</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{ff3e08e3-3e5c-4d39-8f86-b3d6e4166880}">
+    <Summary>TODO: deprecate</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:58</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/database_cleaner-1.7.0/lib/database_cleaner/configuration.rb</Filename>
+      <Linenumber>18</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{f4ddab9f-43d9-49b3-b8bb-bd973b8cdcad}">
+    <Summary>TODO: replace above lines with</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:58</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/devise-4.5.0/lib/devise/models/confirmable.rb</Filename>
+      <Linenumber>354</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{dfff9eeb-ffad-4c16-a3bf-b78f0e5a5780}">
+    <Summary>TODO: Normalize the JSON type coercion along with the Timeoutable hook</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:58</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/devise-4.5.0/lib/devise/models/rememberable.rb</Filename>
+      <Linenumber>104</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{fe562548-f9b5-42b3-b8d8-4cc5b877085e}">
+    <Summary>TODO: Remove the `with_indifferent_access` method call when we only support Rails 5+.</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:58</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/devise-4.5.0/lib/devise/parameter_sanitizer.rb</Filename>
+      <Linenumber>133</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="3" uid="{f4d02cbc-ee60-4855-b287-7158ff2938a9}">
+    <Summary>NOTE: Bug is triggered by combination of XHR and */*.</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:58</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/devise-4.5.0/test/integration/authenticatable_test.rb</Filename>
+      <Linenumber>539</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{a022ddd1-0d62-439f-8c92-e239ee8bbd89}">
+    <Summary>TODO: Inherit from the 5.0 Migration class directly when we drop support for Rails 4.</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:58</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/devise-4.5.0/test/rails_app/db/migrate/20100401102949_create_tables.rb</Filename>
+      <Linenumber>4</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="3" uid="{7bbb545d-5946-40ba-add1-3bbc363ac567}">
+    <Summary>NOTE: This is missing :validatable and :confirmable, as they both require</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:58</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/devise-4.5.0/test/rails_app/lib/shared_user_without_email.rb</Filename>
+      <Linenumber>7</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="2" uid="{c30181e2-7b93-402b-bb34-1ea1b8a40568}">
+    <Summary>WARNING: By default, this examines the whole patch, so this could take</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:58</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/diff-lcs-1.3/lib/diff/lcs/internals.rb</Filename>
+      <Linenumber>141</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="2" uid="{0182f748-df25-4f5d-8229-7b8778f9a1f9}">
+    <Summary>WARNING: passing a proc _may_ cause your pointer to never be</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:58</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/ffi-1.9.25/lib/ffi/autopointer.rb</Filename>
+      <Linenumber>45</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="2" uid="{f4d41cde-0138-4abe-9287-6cfc47e926a7}">
+    <Summary>WARNING: passing a block will cause your pointer to never be GC'd.</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:58</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/ffi-1.9.25/lib/ffi/autopointer.rb</Filename>
+      <Linenumber>54</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{c5a43ffb-96d8-4163-a9f8-1d1194d3f252}">
+    <Summary>TODO: change back to &quot;require 'backend/simple'&quot; when dropping support to Ruby 1.8.7.</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:58</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/i18n-1.1.0/test/backend/memoize_test.rb</Filename>
+      <Linenumber>2</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{e7651185-ae96-406e-988c-3090c1267a8c}">
+    <Summary>TODO: Remove these aliases and update tests accordingly.</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:58</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/i18n-1.1.0/test/test_helper.rb</Filename>
+      <Linenumber>6</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="3" uid="{24372174-c604-49b8-8c73-5c6832cdc4e3}">
+    <Summary>NOTE:&lt;/b&gt; Due to limitations of Ruby's finalizer, IO::Like#close is not</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:58</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/io-like-0.3.0/lib/io/like.rb</Filename>
+      <Linenumber>70</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="3" uid="{60715a0b-7b9f-442a-9abf-6c94041399bf}">
+    <Summary>NOTE:&lt;/b&gt; This method ignores Errno::EAGAIN and Errno::EINTR raised by</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:58</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/io-like-0.3.0/lib/io/like.rb</Filename>
+      <Linenumber>180</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="3" uid="{af3fe634-dc3d-4042-a954-ffd4d1fd33e8}">
+    <Summary>NOTE:&lt;/b&gt; When _sep_string_ is not +nil+, this method ignores</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:58</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/io-like-0.3.0/lib/io/like.rb</Filename>
+      <Linenumber>199</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="3" uid="{c629efcc-4c2f-442b-8a54-3290c70acc94}">
+    <Summary>NOTE:&lt;/b&gt; This method ignores Errno::EAGAIN and Errno::EINTR raised by</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:58</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/io-like-0.3.0/lib/io/like.rb</Filename>
+      <Linenumber>222</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="3" uid="{dcbac429-405d-4c38-a558-23aedd45d001}">
+    <Summary>NOTE:&lt;/b&gt; This method ignores Errno::EAGAIN and Errno::EINTR raised by</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:58</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/io-like-0.3.0/lib/io/like.rb</Filename>
+      <Linenumber>299</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="3" uid="{279d1c4a-9ee8-4a70-b4a8-ab6f2ad6e320}">
+    <Summary>NOTE:&lt;/b&gt; This method ignores Errno::EAGAIN and Errno::EINTR raised by</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:58</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/io-like-0.3.0/lib/io/like.rb</Filename>
+      <Linenumber>358</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="3" uid="{c1f149b7-0db7-4df0-8589-c327bf515030}">
+    <Summary>NOTE:&lt;/b&gt; Due to limitations of MRI up to version 1.9.x when running</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:58</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/io-like-0.3.0/lib/io/like.rb</Filename>
+      <Linenumber>376</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="3" uid="{e21f6911-b27b-4a7b-9ba2-1d4f9641f125}">
+    <Summary>NOTE:&lt;/b&gt; When _sep_string_ is not +nil+, this method ignores</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:58</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/io-like-0.3.0/lib/io/like.rb</Filename>
+      <Linenumber>384</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="3" uid="{d9b7ca1a-7a38-4775-9777-b23674a54100}">
+    <Summary>NOTE:&lt;/b&gt; Because this method relies on #unbuffered_seek and</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:58</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/io-like-0.3.0/lib/io/like.rb</Filename>
+      <Linenumber>466</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="3" uid="{f3b52154-2e0f-41b5-a1e8-2c8eb313f133}">
+    <Summary>NOTE:&lt;/b&gt; Because this method relies on #unbuffered_seek and</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:58</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/io-like-0.3.0/lib/io/like.rb</Filename>
+      <Linenumber>486</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="3" uid="{b5a2a1f4-8703-4371-8cce-8774f5547d76}">
+    <Summary>NOTE:&lt;/b&gt; This method ignores Errno::EAGAIN and Errno::EINTR raised by</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:58</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/io-like-0.3.0/lib/io/like.rb</Filename>
+      <Linenumber>509</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="3" uid="{0b60b457-b2ac-42fd-bbce-127c4f153175}">
+    <Summary>NOTE:&lt;/b&gt; This method ignores Errno::EAGAIN and Errno::EINTR raised by</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:58</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/io-like-0.3.0/lib/io/like.rb</Filename>
+      <Linenumber>549</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="3" uid="{003eab67-a818-4cd6-ab4f-b5121bc92940}">
+    <Summary>NOTE:&lt;/b&gt; This method ignores Errno::EAGAIN and Errno::EINTR raised by</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:58</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/io-like-0.3.0/lib/io/like.rb</Filename>
+      <Linenumber>568</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="3" uid="{7baec9c4-ed07-4877-b2fc-889252f3b7f3}">
+    <Summary>NOTE:&lt;/b&gt; This method ignores Errno::EAGAIN and Errno::EINTR raised by</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:58</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/io-like-0.3.0/lib/io/like.rb</Filename>
+      <Linenumber>596</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="3" uid="{c44ebbfa-f72c-4587-a485-67d0193e0db3}">
+    <Summary>NOTE:&lt;/b&gt; In order to be compatible with IO#puts, the record separator</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:58</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/io-like-0.3.0/lib/io/like.rb</Filename>
+      <Linenumber>602</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="3" uid="{0adde5d9-9da7-4ee9-a82c-4e7fc2949dd0}">
+    <Summary>NOTE:&lt;/b&gt; Because this method relies on #unbuffered_read, it will also</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:58</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/io-like-0.3.0/lib/io/like.rb</Filename>
+      <Linenumber>652</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="3" uid="{7d49527e-fd51-4e34-a126-f5641da44ec6}">
+    <Summary>NOTE:&lt;/b&gt; Because this method relies on #unbuffered_read, it will also</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:58</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/io-like-0.3.0/lib/io/like.rb</Filename>
+      <Linenumber>736</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="3" uid="{0fedd8e7-1906-4710-902d-5b8ab02c3eba}">
+    <Summary>NOTE:&lt;/b&gt; This method ignores Errno::EAGAIN and Errno::EINTR raised by</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:58</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/io-like-0.3.0/lib/io/like.rb</Filename>
+      <Linenumber>758</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="3" uid="{0b615edb-2bfc-4dc2-8fc0-89ccb6565458}">
+    <Summary>NOTE:&lt;/b&gt; When _sep_string_ is not +nil+, this method ignores</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:58</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/io-like-0.3.0/lib/io/like.rb</Filename>
+      <Linenumber>800</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="3" uid="{61b40421-5831-43be-9414-1d2f1b13125f}">
+    <Summary>NOTE:&lt;/b&gt; When _sep_string_ is not +nil+, this method ignores</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:58</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/io-like-0.3.0/lib/io/like.rb</Filename>
+      <Linenumber>876</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="3" uid="{2455397d-c9c4-45c3-b679-6ab1b179b93a}">
+    <Summary>NOTE:&lt;/b&gt; This method ignores Errno::EAGAIN and Errno::EINTR raised by</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:59</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/io-like-0.3.0/lib/io/like.rb</Filename>
+      <Linenumber>900</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="3" uid="{0fc63de7-3658-411e-8210-8125f1fee186}">
+    <Summary>NOTE:&lt;/b&gt; Because this method relies on #unbuffered_seek and</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:59</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/io-like-0.3.0/lib/io/like.rb</Filename>
+      <Linenumber>942</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="3" uid="{fd7e774c-b254-4a94-bfc7-7591c8954ae1}">
+    <Summary>NOTE:&lt;/b&gt; Because this method relies on #unbuffered_seek and</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:59</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/io-like-0.3.0/lib/io/like.rb</Filename>
+      <Linenumber>967</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="3" uid="{c06733aa-ce11-415f-b6e8-bfe596f573c4}">
+    <Summary>NOTE:&lt;/b&gt; Because this method relies on #unbuffered_read, it will also</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:59</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/io-like-0.3.0/lib/io/like.rb</Filename>
+      <Linenumber>1027</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="3" uid="{a7653b9c-3b3c-4c91-9bd0-699510094202}">
+    <Summary>NOTE:&lt;/b&gt; Because this method relies on #unbuffered_seek, it will also</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:59</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/io-like-0.3.0/lib/io/like.rb</Filename>
+      <Linenumber>1059</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="3" uid="{76f1a23f-235e-496a-a376-37043ef72119}">
+    <Summary>NOTE:&lt;/b&gt; Because this method relies on #unbuffered_write, it will also</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:59</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/io-like-0.3.0/lib/io/like.rb</Filename>
+      <Linenumber>1086</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="3" uid="{392eaf14-8dda-4972-a7ba-f144883f66b0}">
+    <Summary>NOTE:&lt;/b&gt; This method ignores Errno::EAGAIN and Errno::EINTR raised by</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:59</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/io-like-0.3.0/lib/io/like.rb</Filename>
+      <Linenumber>1185</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="3" uid="{645a4f0d-b370-4f1c-9773-dc5429e12c84}">
+    <Summary>NOTE:&lt;/b&gt; Because this method relies on #unbuffered_write, it raises</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:59</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/io-like-0.3.0/lib/io/like.rb</Filename>
+      <Linenumber>1215</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="3" uid="{7a1f648a-4e6b-4e85-85b9-6f672525529b}">
+    <Summary>NOTE:&lt;/b&gt; Because this method relies on #unbuffered_read, it raises all</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:59</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/io-like-0.3.0/lib/io/like.rb</Filename>
+      <Linenumber>1239</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="3" uid="{1d52c35a-3f6a-42ca-ac9e-9d84d7fe022e}">
+    <Summary>NOTE:&lt;/b&gt; Because this method relies on #unbuffered_seek and</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:59</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/io-like-0.3.0/lib/io/like.rb</Filename>
+      <Linenumber>1289</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="3" uid="{057241dc-fb78-458c-aa70-63d569fec7ce}">
+    <Summary>NOTE:&lt;/b&gt; Because this method relies on #unbuffered_write, it raises</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:59</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/io-like-0.3.0/lib/io/like.rb</Filename>
+      <Linenumber>1342</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{9a5f87a9-6a7f-4a3d-93b9-4180f7bf509f}">
+    <Summary>TODO: remove this in a future major-point-release.</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:59</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/loofah-2.2.2/lib/loofah/helpers.rb</Filename>
+      <Linenumber>36</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{4dd3f598-1c08-42b4-931d-4b31988a901a}">
+    <Summary>TODO: Validate that preamble and epilogue are valid for requested encoding</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:59</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/mail-2.7.0/lib/mail/body.rb</Filename>
+      <Linenumber>149</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="2" uid="{13e28a26-f23d-41ba-9bfe-74301dbf74f3}">
+    <Summary>WARNING: Ignoring unparsable header #{raw_field.inspect}: invalid header name syntax: #{name.inspect}&quot;</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:59</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/mail-2.7.0/lib/mail/field.rb</Filename>
+      <Linenumber>138</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="2" uid="{2b54bfe7-baa5-41ba-9e68-9d7feedde146}">
+    <Summary>WARNING: Ignoring unparsable header #{raw_field.inspect}: #{error.class}: #{error.message}&quot;</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:59</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/mail-2.7.0/lib/mail/field.rb</Filename>
+      <Linenumber>145</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{6b725f12-efc2-414e-ac15-8666773a5188}">
+    <Summary>TODO: Fix this up</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:59</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/mail-2.7.0/lib/mail/fields/content_disposition_field.rb</Filename>
+      <Linenumber>51</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{77df20f4-c5bc-48e3-b34b-69a8506b9e85}">
+    <Summary>TODO: Fix this up</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:59</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/mail-2.7.0/lib/mail/fields/content_id_field.rb</Filename>
+      <Linenumber>47</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{3bf03c72-cd0a-4266-af95-0f0c2b0b5233}">
+    <Summary>TODO: Fix this up</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:59</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/mail-2.7.0/lib/mail/fields/content_location_field.rb</Filename>
+      <Linenumber>33</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{6e169b63-b203-4729-9a26-f7e6646851cb}">
+    <Summary>TODO: Fix this up</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:59</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/mail-2.7.0/lib/mail/fields/content_transfer_encoding_field.rb</Filename>
+      <Linenumber>35</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{bc9ba9ee-3f96-419d-99a4-32499b37f7c4}">
+    <Summary>TODO: Fix this up</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:59</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/mail-2.7.0/lib/mail/fields/content_type_field.rb</Filename>
+      <Linenumber>111</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{8e1b41c3-f314-4136-8095-652149d58ea6}">
+    <Summary>TODO: check if there are cases where whitespace is not a separator</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:59</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/mail-2.7.0/lib/mail/fields/content_type_field.rb</Filename>
+      <Linenumber>145</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="2" uid="{033f6f1b-a3a1-4323-a148-16f10a3b93c0}">
+    <Summary>WARNING: More than #{self.class.maximum_amount} header fields; only using the first #{self.class.maximum_amount} and ignoring the rest&quot; if unfolded_fields.length &gt; self.class.maximum_amount</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:59</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/mail-2.7.0/lib/mail/header.rb</Filename>
+      <Linenumber>96</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{fbd5986a-ee8f-4e08-88c0-868fb36da962}">
+    <Summary>TODO: Deprecated in 2.2.2 - Remove in 2.3</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:59</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/mail-2.7.0/lib/mail/part.rb</Filename>
+      <Linenumber>23</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{c76dd6ee-5a02-43fd-84f1-8f7099301c66}">
+    <Summary>TODO: add this as a test somewhere:</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:59</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/mail-2.7.0/lib/mail/version_specific/ruby_1_9.rb</Filename>
+      <Linenumber>183</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="3" uid="{7325d6cd-2642-4f31-befb-a6ce189d21b5}">
+    <Summary>NOTE: The first line in a file is</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:59</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/method_source-0.9.0/lib/method_source/code_helpers.rb</Filename>
+      <Linenumber>10</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="3" uid="{1ce4fffe-1364-4e28-9f5f-25fdf30ed2d6}">
+    <Summary>NOTE: The first line in a file is line 1!</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:59</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/method_source-0.9.0/lib/method_source/code_helpers.rb</Filename>
+      <Linenumber>50</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="3" uid="{8000280c-3804-4888-a4ef-bfb55e163b56}">
+    <Summary>NOTE: This accessor is only available during setup, not during runs.</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:59</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/minitest-5.11.3/lib/minitest.rb</Filename>
+      <Linenumber>34</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{ec248ba3-2dcb-4170-aed3-f8ee04a73f61}">
+    <Summary>TODO: remove conditional for minitest 6</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:59</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/minitest-5.11.3/lib/minitest.rb</Filename>
+      <Linenumber>796</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="3" uid="{75f9f974-f4a6-46ef-ba3f-663a2636f5d9}">
+    <Summary>NOTE: this uses #capture_io, not #capture_subprocess_io.</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:59</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/minitest-5.11.3/lib/minitest/assertions.rb</Filename>
+      <Linenumber>281</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="3" uid="{15ab5b2a-00df-4aed-83d9-857eae75f486}">
+    <Summary>NOTE: For efficiency, this method uses StringIO and does not</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:59</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/minitest-5.11.3/lib/minitest/assertions.rb</Filename>
+      <Linenumber>429</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="3" uid="{a60b09d2-ab81-465e-ac8a-aa0d3f891de8}">
+    <Summary>NOTE: This method is approximately 10x slower than #capture_io so</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:59</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/minitest-5.11.3/lib/minitest/assertions.rb</Filename>
+      <Linenumber>463</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="3" uid="{3a8e1f45-cc37-4b84-951c-27354e3ceb31}">
+    <Summary>NOTE: `gem install minitest-proveit` for even more hellish tests&quot;</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:59</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/minitest-5.11.3/lib/minitest/hell.rb</Filename>
+      <Linenumber>10</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="3" uid="{b1aa8669-33ce-473d-867b-8c3af37a3aa7}">
+    <Summary>NOTE: +type+ is ignored and is only there to make porting easier.</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:59</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/minitest-5.11.3/lib/minitest/spec.rb</Filename>
+      <Linenumber>176</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="3" uid="{87cd8517-99df-4cdd-968c-d13b51ae3f04}">
+    <Summary>NOTE: +type+ is ignored and is only there to make porting easier.</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:59</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/minitest-5.11.3/lib/minitest/spec.rb</Filename>
+      <Linenumber>190</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="3" uid="{411d277c-4f30-45db-93c5-eda521166e0d}">
+    <Summary>NOTE: this is much slower</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:59</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/minitest-5.11.3/lib/minitest/test.rb</Filename>
+      <Linenumber>40</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{c956f6a1-fd39-4672-b656-526886418442}">
+    <Summary>TODO: remove/rename</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:59</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/minitest-5.11.3/test/minitest/test_minitest_mock.rb</Filename>
+      <Linenumber>523</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="3" uid="{f59f376e-6443-44b7-b250-ce07712da8a9}">
+    <Summary>NOTE: External encoding #{e} is not UTF-8. Tests WILL fail.&quot;</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:59</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/minitest-5.11.3/test/minitest/test_minitest_test.rb</Filename>
+      <Linenumber>11</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{d505722c-3d32-4d78-ac09-d9903d6eee76}">
+    <Summary>TODO: switch to .b when 1.9 dropped</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:59</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/minitest-5.11.3/test/minitest/test_minitest_test.rb</Filename>
+      <Linenumber>925</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{22f9be2e-744e-438f-bfef-89d030740239}">
+    <Summary>TODO: switch to .b when 1.9 dropped</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:59</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/minitest-5.11.3/test/minitest/test_minitest_test.rb</Filename>
+      <Linenumber>942</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{069665fb-d720-4889-b8e3-cca3d339ba44}">
+    <Summary>TODO: remove test for minitest 6</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:15:59</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/minitest-5.11.3/test/minitest/test_minitest_test.rb</Filename>
+      <Linenumber>2032</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{5040653a-f6f5-4771-b30c-d0161589b60e}">
+    <Summary>TODO: Use FFI to lookup the platform-specific size of PIPE_BUF</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:16:00</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/nio4r-2.3.1/spec/nio/selectables/pipe_spec.rb</Filename>
+      <Linenumber>28</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{d2097ae4-7801-43c8-ab24-53401fe62a32}">
+    <Summary>TODO: close this socket</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:16:00</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/nio4r-2.3.1/spec/nio/selectables/tcp_socket_spec.rb</Filename>
+      <Linenumber>36</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="2" uid="{11d8874e-086b-4729-9a81-a43d74748d69}">
+    <Summary>WARNING: libxml2 version 2.9.3 or later is highly recommended, but proceeding anyway.&quot;</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:16:00</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/nokogiri-1.8.4/ext/nokogiri/extconf.rb</Filename>
+      <Linenumber>455</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="0" uid="{52e815cf-00f3-49ef-83f1-731f43a16454}">
+    <Summary>FIXME: maybe switch to singleton?</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:16:00</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/nokogiri-1.8.4/lib/nokogiri/version.rb</Filename>
+      <Linenumber>91</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="2" uid="{044470bd-d0f1-4b3f-bec7-64fc73df0048}">
+    <Summary>WARNING: #{warning}&quot;</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:16:00</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/nokogiri-1.8.4/lib/nokogiri/version.rb</Filename>
+      <Linenumber>94</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="2" uid="{ab16a9cc-b894-47c6-b102-1ce47f51be38}">
+    <Summary>WARNING: this method will clobber duplicate names in the keys.</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:16:00</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/nokogiri-1.8.4/lib/nokogiri/xml/document.rb</Filename>
+      <Linenumber>151</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="0" uid="{ab8df787-2513-43eb-be68-fa395c2917f1}">
+    <Summary>FIXME: this is a hack around broken libxml versions</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:16:00</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/nokogiri-1.8.4/lib/nokogiri/xml/node.rb</Filename>
+      <Linenumber>839</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="0" uid="{cb6eade1-d49a-413b-a629-788574fc190f}">
+    <Summary>FIXME: this is a hack around broken libxml versions</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:16:00</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/nokogiri-1.8.4/lib/nokogiri/xml/node.rb</Filename>
+      <Linenumber>847</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{ef37d57b-c481-4bb1-be2a-484b6763cc5b}">
+    <Summary>TODO: should we make this work?</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:16:00</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/nokogiri-1.8.4/test/css/test_parser.rb</Filename>
+      <Linenumber>367</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="0" uid="{501b5981-4882-4771-8be1-73a5e4a051ca}">
+    <Summary>FIXME: this is a hack around broken libxml versions</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:16:00</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/nokogiri-1.8.4/test/html/test_document.rb</Filename>
+      <Linenumber>113</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="0" uid="{4f5586a7-78b9-4af9-8e6a-fc6f194b88e3}">
+    <Summary>FIXME: why are we doing this ? this violates the spec,</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:16:00</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/nokogiri-1.8.4/test/html/test_document_fragment.rb</Filename>
+      <Linenumber>216</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{79005da5-5a65-46dc-84d2-792be3b765d8}">
+    <Summary>TODO:</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:16:00</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/nokogiri-1.8.4/test/test_convert_xpath.rb</Filename>
+      <Linenumber>119</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{c84cbeca-cf97-458f-8035-616b343d4afe}">
+    <Summary>TODO: should we raise an exception here?</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:16:00</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/nokogiri-1.8.4/test/xml/sax/test_push_parser.rb</Filename>
+      <Linenumber>232</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{f128b5a8-21c8-4d16-a776-8a09bef1b6c8}">
+    <Summary>TODO: can we retreive a resource pointing to localhost when NONET is set to true ?</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:16:00</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/nokogiri-1.8.4/test/xml/test_entity_reference.rb</Filename>
+      <Linenumber>178</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{7a3d6581-eeb9-4983-95cf-3f3dab4d6fc0}">
+    <Summary>TODO: we should probably assert something here. See commit 14d2f59.</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:16:00</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/nokogiri-1.8.4/test/xml/test_namespace.rb</Filename>
+      <Linenumber>72</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{e6669c2a-5b39-4454-9014-8715e2f136c6}">
+    <Summary>TODO: JRuby ext does not internally call `errors`&quot; if Nokogiri.jruby?</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:16:00</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/nokogiri-1.8.4/test/xml/test_reader.rb</Filename>
+      <Linenumber>209</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{e2677d5d-adad-45b5-99a2-f82a5c0261a0}">
+    <Summary>TODO: Maybe I should move this to the original code.</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:16:00</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/nokogiri-1.8.4/test/xml/test_xpath.rb</Filename>
+      <Linenumber>28</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="2" uid="{4ac65f48-85d3-44d4-9beb-fcf2dbc5a3f7}">
+    <Summary>WARNING: Detected #{after.size-before.size} Thread(s) started in app boot:&quot;</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:16:00</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/puma-3.12.0/lib/puma/cluster.rb</Filename>
+      <Linenumber>417</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="2" uid="{dfea79b4-ccbf-431b-98c6-9e7a9ad2be4e}">
+    <Summary>WARNING: Detected #{after.size-before.size} Thread(s) started in app boot&quot;</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:16:00</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/puma-3.12.0/lib/puma/cluster.rb</Filename>
+      <Linenumber>422</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="3" uid="{083a5557-1524-4a76-aa3e-737b2f64c4b7}">
+    <Summary>NOTE: there is no trivial way to write this in a non execption way</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:16:00</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/rack-2.0.5/lib/rack/conditional_get.rb</Filename>
+      <Linenumber>71</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{c7adfb6e-8917-417f-8123-90cd926b953b}">
+    <Summary>TODO: add correct response if not readable, not sure if 404 is the best</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:16:00</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/rack-2.0.5/lib/rack/directory.rb</Filename>
+      <Linenumber>138</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{529c074a-cddc-4816-9e36-7ef6361be715}">
+    <Summary>TODO: Support multiple byte-ranges</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:16:00</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/rack-2.0.5/lib/rack/file.rb</Filename>
+      <Linenumber>81</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="0" uid="{54574d32-d05d-4875-b087-9c07ed7060a0}">
+    <Summary>FIXME: apparently users of MockResponse expect the return value of</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:16:00</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/rack-2.0.5/lib/rack/mock.rb</Filename>
+      <Linenumber>179</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="3" uid="{6a1b9433-2797-4576-806a-aefd63bd2393}">
+    <Summary>NOTE: Do not mix #write and direct #body access!</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:16:00</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/rack-2.0.5/lib/rack/response.rb</Filename>
+      <Linenumber>83</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="2" uid="{560a4882-c1c8-46d2-ac3d-fffb4a61bd69}">
+    <Summary>WARNING: No secret option provided to Rack::Session::Cookie.</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:16:00</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/rack-2.0.5/lib/rack/session/cookie.rb</Filename>
+      <Linenumber>111</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="3" uid="{a87b3aa7-7c76-4d66-aafd-958abb5929eb}">
+    <Summary>NOTE: I'm not sure the RFC says it requires GMT, but is ambiguous enough</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:16:00</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/rack-2.0.5/lib/rack/utils.rb</Filename>
+      <Linenumber>340</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="3" uid="{1bc2783b-d049-430f-a0e3-2192b0ba2e6c}">
+    <Summary>NOTE: the values compared should be of fixed length, such as strings</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:16:00</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/rack-2.0.5/lib/rack/utils.rb</Filename>
+      <Linenumber>392</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{074df041-d68c-43de-ba29-094f3f0d3ae9}">
+    <Summary>TODO: This is really just a special case of the above...</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:16:00</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/rack-2.0.5/test/spec_deflater.rb</Filename>
+      <Linenumber>152</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="2" uid="{9f462115-4dd7-4bfb-ba6f-db435dc65974}">
+    <Summary>WARNING: there be hax in this file.</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:16:00</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/rack-2.0.5/test/spec_session_abstract_id.rb</Filename>
+      <Linenumber>2</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{512328ed-a12f-40c2-8e1b-20ec028a8e1e}">
+    <Summary>TODO: Remove this after Rack 1.1 has been released.</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:16:00</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/rack-test-1.1.0/lib/rack/test.rb</Filename>
+      <Linenumber>229</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{eaea981e-42ad-46af-bfc6-af0f9bee17f4}">
+    <Summary>TODO: Should be case insensitive</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:16:00</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/rack-test-1.1.0/lib/rack/test/cookie_jar.rb</Filename>
+      <Linenumber>120</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="0" uid="{ac28d392-9f46-450a-a432-b739dc2675e7}">
+    <Summary>FIXME: We are avoiding to use alias because a bug on thor that make</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:16:00</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/railties-5.2.1/lib/rails/generators/named_base.rb</Filename>
+      <Linenumber>41</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{9d885887-6e00-41e6-8a05-03fed1439c03}">
+    <Summary>TODO: Remove once this is fully in place</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:16:00</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/railties-5.2.1/lib/rails/generators/rails/app/app_generator.rb</Filename>
+      <Linenumber>24</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{71b9ef5d-7c01-4fa0-ab8e-85e26812116b}">
+    <Summary>TODO: Write your name&quot;</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:16:00</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/railties-5.2.1/lib/rails/generators/rails/plugin/plugin_generator.rb</Filename>
+      <Linenumber>370</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{44f3d677-938d-405e-991c-c4e14866f332}">
+    <Summary>TODO: Write your email address&quot;</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:16:00</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/railties-5.2.1/lib/rails/generators/rails/plugin/plugin_generator.rb</Filename>
+      <Linenumber>379</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="2" uid="{5373e055-e812-49b8-bc67-c59cccd18127}">
+    <Summary>WARNING: '#{old_usage}' is deprecated.  &quot; +</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:16:00</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/rake-12.3.1/lib/rake/application.rb</Filename>
+      <Linenumber>260</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="2" uid="{56a653ae-8cc5-44dd-879d-34b988d1dcf8}">
+    <Summary>WARNING: Possible conflict with Rake extension: &quot; +</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:16:00</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/rake-12.3.1/lib/rake/ext/core.rb</Filename>
+      <Linenumber>20</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{01d96a72-caa3-4927-8465-781e64066ccd}">
+    <Summary>TODO: check for pending</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:16:00</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/rake-12.3.1/lib/rake/file_list.rb</Filename>
+      <Linenumber>117</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="3" uid="{a8c00d97-822f-442c-ae83-d804ccd11c6d}">
+    <Summary>NOTE: This method was formerly named &quot;exclude?&quot;, but Rails</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:16:00</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/rake-12.3.1/lib/rake/file_list.rb</Filename>
+      <Linenumber>359</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{8b8bfd5d-b22b-465d-b407-bf1ab8f33790}">
+    <Summary>TODO: in RSpec 4, consider raising an error here.</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:16:00</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/rspec-core-3.8.0/lib/rspec/core/configuration.rb</Filename>
+      <Linenumber>2045</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="2" uid="{70a5ff4e-5040-4d80-b381-9892b6d87acb}">
+    <Summary>WARNING: `:suite` hooks do not support metadata since &quot; \</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:16:01</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/rspec-core-3.8.0/lib/rspec/core/configuration.rb</Filename>
+      <Linenumber>2047</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="2" uid="{34356b49-9ae7-465b-ab6b-15c91b7a03c3}">
+    <Summary>WARNING: Ignoring unknown ordering specified using `:order =&gt; #{order.inspect}` metadata.</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:16:01</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/rspec-core-3.8.0/lib/rspec/core/example_group.rb</Filename>
+      <Linenumber>614</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="3" uid="{ad707a42-356f-4deb-89c5-2ac25d154ef1}">
+    <Summary>NOTE: this bisect run used `config.bisect_runner = :fork`, which generally&quot;</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:16:01</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/rspec-core-3.8.0/lib/rspec/core/formatters/bisect_progress_formatter.rb</Filename>
+      <Linenumber>42</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{0288c0c1-a0b4-4023-b814-de51c2cde99a}">
+    <Summary>TODO: consider making this an error in RSpec 4. For SemVer reasons,</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:16:01</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/rspec-core-3.8.0/lib/rspec/core/hooks.rb</Filename>
+      <Linenumber>436</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="2" uid="{875228d5-2ba3-4154-9bf0-224097b4402e}">
+    <Summary>WARNING: `#{position}(:suite)` hooks are only supported on &quot; \</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:16:01</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/rspec-core-3.8.0/lib/rspec/core/hooks.rb</Filename>
+      <Linenumber>438</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{e80d8e66-5be3-41f5-96e5-20f7ec669f09}">
+    <Summary>TODO: consider deprecating support for this and removing it in</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:16:01</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/rspec-core-3.8.0/lib/rspec/core/rake_task.rb</Filename>
+      <Linenumber>131</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{b0c2efce-746b-401f-b9fe-26eb8884d885}">
+    <Summary>TODO: remove this in RSpec 4. This exists only to support</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:16:01</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/rspec-core-3.8.0/lib/rspec/core/shared_example_group.rb</Filename>
+      <Linenumber>183</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="2" uid="{8a71dc5b-5bb1-4a51-8b4c-9a5fbdcd4816}">
+    <Summary>WARNING: Your shared example group, '#{key}', defined at:</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:16:01</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/rspec-core-3.8.0/lib/rspec/core/shared_example_group.rb</Filename>
+      <Linenumber>223</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="2" uid="{509efc90-f263-4f95-b7ab-33262d1c4155}">
+    <Summary>WARNING: Shared example group '#{key}' has been previously defined at:</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:16:01</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/rspec-core-3.8.0/lib/rspec/core/shared_example_group.rb</Filename>
+      <Linenumber>233</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{52a7d7b4-9f4b-443a-a873-d7b32f11e946}">
+    <Summary>TODO: change `inject` to `each_with_object` when we drop 1.8.7 support.</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:16:01</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/rspec-core-3.8.0/lib/rspec/core/world.rb</Filename>
+      <Linenumber>227</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="2" uid="{bffdabc7-3783-4096-952f-7047b55334c7}">
+    <Summary>WARNING: ignoring the provided expectation message argument (&quot;,</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:16:01</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/rspec-expectations-3.8.1/lib/rspec/expectations/handler.rb</Filename>
+      <Linenumber>8</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="2" uid="{146844aa-fad3-4367-a075-f75b2c2fdd64}">
+    <Summary>WARNING: rspec-mocks was unable to restore the original `#{@method_name}` &quot; \</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:16:01</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/rspec-mocks-3.8.0/lib/rspec/mocks/method_double.rb</Filename>
+      <Linenumber>95</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="2" uid="{d6a12eac-9572-49ff-a3d0-4fcdedb8a3c2}">
+    <Summary>WARNING: RSpec could not fully restore #{@object.inspect}.&quot; \</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:16:01</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/rspec-mocks-3.8.0/lib/rspec/mocks/method_double.rb</Filename>
+      <Linenumber>280</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="2" uid="{1ef39c9d-e4f8-4a36-bd77-44c207a5687b}">
+    <Summary>WARNING: you attempted to freeze a test double. This is explicitly a no-op as freezing doubles can lead to undesired behaviour when resetting tests.&quot;)</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:16:01</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/rspec-mocks-3.8.0/lib/rspec/mocks/test_double.rb</Filename>
+      <Linenumber>68</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{871ce4bb-59cc-4c39-9997-bd373e24c17c}">
+    <Summary>TODO: Change the above check to &gt;= '3.2.22' once it's released</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:16:01</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/rspec-rails-3.8.0/lib/rspec/rails/adapters.rb</Filename>
+      <Linenumber>42</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{85581719-2b61-4bc7-b976-0316cbf3269a}">
+    <Summary>TODO: (DC 2011-06-25) this is necessary because fixture_file_upload</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:16:01</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/rspec-rails-3.8.0/lib/rspec/rails/fixture_support.rb</Filename>
+      <Linenumber>13</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="2" uid="{4f1bb827-f04d-4adb-8ee6-bc846992a802}">
+    <Summary>WARNING: #{text}.&quot;, options</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:16:01</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/rspec-support-3.8.0/lib/rspec/support/warnings.rb</Filename>
+      <Linenumber>23</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="2" uid="{e5fbae49-2b51-40af-8bf9-79de09b84cb0}">
+    <Summary>WARNING: skipped #{@name} as unsafe&quot;</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:16:01</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/rubyzip-1.2.2/lib/zip/entry.rb</Filename>
+      <Linenumber>165</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{5d21cd4d-4ce4-4156-96fd-855cafd79d8f}">
+    <Summary>TODO: Symlinks pose security challenges. Symlink support temporarily</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:16:01</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/rubyzip-1.2.2/lib/zip/entry.rb</Filename>
+      <Linenumber>630</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="2" uid="{5bb425dd-1567-4818-8c0c-0fa9aa49038d}">
+    <Summary>WARNING: skipped symlink #{dest_path}&quot;</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:16:01</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/rubyzip-1.2.2/lib/zip/entry.rb</Filename>
+      <Linenumber>632</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{a5a738c8-6aed-4315-9284-449bfaac479e}">
+    <Summary>TODO: Make the code more understandable</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:16:01</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/rubyzip-1.2.2/lib/zip/file.rb</Filename>
+      <Linenumber>182</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{43207b78-d0c1-41f3-9036-c528e979f437}">
+    <Summary>TODO: Refactor out into common test module</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:16:01</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/rubyzip-1.2.2/test/settings_test.rb</Filename>
+      <Linenumber>4</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="2" uid="{43968b68-c5d4-4670-bd5c-1f26ec44d184}">
+    <Summary>WARNING: Passing --sourcemap without a value is deprecated.</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:16:01</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/sass-3.6.0/lib/sass/exec/sass_scss.rb</Filename>
+      <Linenumber>165</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="2" uid="{926d0c14-1f35-4f69-8e4e-fd10541e41d7}">
+    <Summary>WARNING: Compiling directories without --update or --watch is</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:16:01</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/sass-3.6.0/lib/sass/exec/sass_scss.rb</Filename>
+      <Linenumber>297</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="2" uid="{9ca4d175-3a8f-45ac-a258-1ca1683d87ba}">
+    <Summary>WARNING: #{self.class.name} should define the #public_url method.</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:16:01</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/sass-3.6.0/lib/sass/importers/base.rb</Filename>
+      <Linenumber>144</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="2" uid="{212c672a-9162-4bfe-9998-1cf2c456b87c}">
+    <Summary>WARNING: Importing from #{path} will not be</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:16:01</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/sass-3.6.0/lib/sass/importers/deprecated_path.rb</Filename>
+      <Linenumber>43</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="2" uid="{10ae1c7c-99d7-4815-b5bf-a667eea6fa34}">
+    <Summary>WARNING: In #{File.dirname(name)}:</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:16:01</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/sass-3.6.0/lib/sass/importers/filesystem.rb</Filename>
+      <Linenumber>182</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{26346605-ae1d-4539-a91b-0bb0a8197a12}">
+    <Summary>TODO: this preserves historical behavior, but it's possible</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:16:01</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/sass-3.6.0/lib/sass/importers/filesystem.rb</Filename>
+      <Linenumber>209</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{efe68694-b63f-45c9-9529-bc1644d5fa01}">
+    <Summary>TODO: Does staleness_checker need to check the sourcemap file as well?</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:16:01</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/sass-3.6.0/lib/sass/plugin/compiler.rb</Filename>
+      <Linenumber>210</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{2cb00e9a-ebb7-48a2-bb77-c1d4a55afbdc}">
+    <Summary>TODO: Keep better track of what depends on what</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:16:01</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/sass-3.6.0/lib/sass/plugin/compiler.rb</Filename>
+      <Linenumber>306</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{3d129eca-2588-4f42-963b-24a5ab0a55d7}">
+    <Summary>TODO: attach this to a compiler instance.</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:16:01</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/sass-3.6.0/lib/sass/plugin/staleness_checker.rb</Filename>
+      <Linenumber>32</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="2" uid="{7cfe9cd2-e58b-4fb5-a93d-018fc389353a}">
+    <Summary>WARNING: Passing #{string.to_sass}, a non-string value, to unquote()</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:16:01</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/sass-3.6.0/lib/sass/script/functions.rb</Filename>
+      <Linenumber>1505</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="2" uid="{b086c171-82ea-4266-bf5c-60eff1072178}">
+    <Summary>WARNING: Passing a string to call() is deprecated and will be illegal</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:16:01</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/sass-3.6.0/lib/sass/script/functions.rb</Filename>
+      <Linenumber>2430</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="2" uid="{d21ba9ba-5329-456f-9cf7-16c939d62bf0}">
+    <Summary>WARNING: Passing a percentage as the alpha value to #{function}() will be</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:16:01</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/sass-3.6.0/lib/sass/script/functions.rb</Filename>
+      <Linenumber>2919</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="2" uid="{48c9775a-0441-4113-83b4-a25e7f713a0f}">
+    <Summary>WARNING: Passing a number with units as the alpha value to #{function}() is</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:16:01</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/sass-3.6.0/lib/sass/script/functions.rb</Filename>
+      <Linenumber>2924</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="2" uid="{2ea95bc6-5994-4581-9264-be6a66b6c384}">
+    <Summary>WARNING: The `$#{deprecated_argname}' argument for &quot; +</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:16:01</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/sass-3.6.0/lib/sass/script/tree/funcall.rb</Filename>
+      <Linenumber>229</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{4c88813a-a942-4df8-a122-d6e299cb0a41}">
+    <Summary>TODO: never consume &quot;!&quot; when issue 1126 is fixed.</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:16:01</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/sass-3.6.0/lib/sass/scss/parser.rb</Filename>
+      <Linenumber>874</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{33c734a6-1561-4a05-878c-ffe1b0a96084}">
+    <Summary>TODO: I think there</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:16:01</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/sass-3.6.0/lib/sass/selector/sequence.rb</Filename>
+      <Linenumber>579</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{3ccd9a9a-e742-4bd9-9f67-3f82814c0344}">
+    <Summary>TODO: use this to generate stack information for Sass::SyntaxErrors.</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:16:01</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/sass-3.6.0/lib/sass/stack.rb</Filename>
+      <Linenumber>4</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{658fb2a9-5e06-4e79-802d-d2bade359c3a}">
+    <Summary>TODO: parse and cache the query immediately if it has no dynamic elements</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:16:01</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/sass-3.6.0/lib/sass/tree/media_node.rb</Filename>
+      <Linenumber>9</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{87f4dda7-a9c1-4a1f-ac23-3e276199f135}">
+    <Summary>TODO: when the deprecation period is over, make this an error.</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:16:01</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/sass-3.6.0/lib/sass/tree/visitors/perform.rb</Filename>
+      <Linenumber>58</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="2" uid="{25b4305a-100a-4d56-abaa-7da7076f6d55}">
+    <Summary>WARNING: #{message}\n&quot; +</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:16:01</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/sass-3.6.0/lib/sass/tree/visitors/perform.rb</Filename>
+      <Linenumber>59</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="2" uid="{4cb2631b-a709-424d-be69-d3d3bc281aa6}">
+    <Summary>WARNING: #{res}\n         &quot;</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:16:01</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/sass-3.6.0/lib/sass/tree/visitors/perform.rb</Filename>
+      <Linenumber>493</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="2" uid="{c5b7bf36-8863-43cb-9754-a85f5936767c}">
+    <Summary>WARNING: #{obj_class}#{caller_info[2]} &quot; +</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:16:01</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/sass-3.6.0/lib/sass/util.rb</Filename>
+      <Linenumber>452</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="2" uid="{c1740eb4-ceb6-408a-bdb8-4f9aba5675e3}">
+    <Summary>WARNING: this is a warning</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:16:01</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/sass-3.6.0/test/sass/engine_test.rb</Filename>
+      <Linenumber>2025</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="2" uid="{1665f38f-49a5-4329-a35a-5063b620f2ce}">
+    <Summary>WARNING: this is a mixin warning</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:16:02</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/sass-3.6.0/test/sass/engine_test.rb</Filename>
+      <Linenumber>2028</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="2" uid="{a0d2a3ca-e88a-4112-9a24-97d46d11d7e6}">
+    <Summary>WARNING: In the main file</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:16:02</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/sass-3.6.0/test/sass/engine_test.rb</Filename>
+      <Linenumber>2060</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="2" uid="{807b7a25-81c8-49e3-8c12-f638546e436c}">
+    <Summary>WARNING: Imported</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:16:02</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/sass-3.6.0/test/sass/engine_test.rb</Filename>
+      <Linenumber>2063</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="2" uid="{92b4390c-6dbb-40ca-9b84-586614a0cb64}">
+    <Summary>WARNING: In an imported mixin</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:16:02</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/sass-3.6.0/test/sass/engine_test.rb</Filename>
+      <Linenumber>2067</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="2" uid="{5fe96e42-bd07-4edb-8da8-b81ede2e41ae}">
+    <Summary>WARNING: Passing a percentage as the alpha value to hsla() will be</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:16:02</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/sass-3.6.0/test/sass/functions_test.rb</Filename>
+      <Linenumber>128</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="2" uid="{8fceda21-2a6d-4993-9d8d-4fff1b27f094}">
+    <Summary>WARNING: Passing a number with units as the alpha value to hsla() is</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:16:02</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/sass-3.6.0/test/sass/functions_test.rb</Filename>
+      <Linenumber>135</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="2" uid="{554b27b4-d62d-47bb-8337-630beb0002f1}">
+    <Summary>WARNING: Passing a percentage as the alpha value to rgba() will be</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:16:02</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/sass-3.6.0/test/sass/functions_test.rb</Filename>
+      <Linenumber>297</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="2" uid="{085c2d7a-42c4-411d-b328-a625bd4182a6}">
+    <Summary>WARNING: Passing a number with units as the alpha value to rgba() is</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:16:02</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/sass-3.6.0/test/sass/functions_test.rb</Filename>
+      <Linenumber>304</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="2" uid="{b4c6a785-1da6-450f-a64a-070a34810ee8}">
+    <Summary>WARNING: Passing blue, a non-string value, to unquote()</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:16:02</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/sass-3.6.0/test/sass/functions_test.rb</Filename>
+      <Linenumber>903</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{c532ccc2-d729-42ff-a138-bddc8c01e11c}">
+    <Summary>TODO: Remove this block in 4.0</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:16:02</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/sass-3.6.0/test/sass/functions_test.rb</Filename>
+      <Linenumber>1482</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{abc2ec76-942c-46b6-a474-b86107761e2f}">
+    <Summary>TODO: Remove this block in 4.0</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:16:02</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/sass-3.6.0/test/sass/functions_test.rb</Filename>
+      <Linenumber>1490</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{7c17fadc-eb01-4df3-a30a-afc18c5faaf4}">
+    <Summary>TODO: Remove this block in 4.0</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:16:02</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/sass-3.6.0/test/sass/functions_test.rb</Filename>
+      <Linenumber>1502</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{1020b2f7-72e7-475a-8dee-4cfb5c92d235}">
+    <Summary>TODO: Remove this block in 4.0</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:16:02</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/sass-3.6.0/test/sass/functions_test.rb</Filename>
+      <Linenumber>1514</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{f536eebc-0d96-4c2e-ac8e-5f25ee733255}">
+    <Summary>TODO: Remove this test in 4.0</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:16:02</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/sass-3.6.0/test/sass/functions_test.rb</Filename>
+      <Linenumber>1528</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{208a4c0e-72df-4a7c-96f2-83753a318d9d}">
+    <Summary>TODO: Remove this block in 4.0</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:16:02</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/sass-3.6.0/test/sass/functions_test.rb</Filename>
+      <Linenumber>1553</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="2" uid="{6b2f062b-0f8d-44ba-ae2d-bd0a0ddaf5dc}">
+    <Summary>WARNING: The `$arg-1' argument for `deprecated-arg-fn()' has been renamed to `$arg1'.</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:16:02</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/sass-3.6.0/test/sass/functions_test.rb</Filename>
+      <Linenumber>1732</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="2" uid="{f5cd28f2-3095-43c4-8b32-0d406f58a90e}">
+    <Summary>WARNING: The `$arg-2' argument for `deprecated-arg-fn()' has been renamed to `$arg2'.</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:16:02</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/sass-3.6.0/test/sass/functions_test.rb</Filename>
+      <Linenumber>1733</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="2" uid="{980dae99-2263-4d7b-b442-e90e5b3f5d0c}">
+    <Summary>WARNING: The `$arg-1' argument for `deprecated-arg-fn()' has been renamed to `$arg1'.</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:16:02</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/sass-3.6.0/test/sass/functions_test.rb</Filename>
+      <Linenumber>1740</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="2" uid="{cbe1ef1e-7e1f-4470-ae6b-f559af3632a2}">
+    <Summary>WARNING: The `$arg-2' argument for `deprecated-arg-fn()' has been renamed to `$arg2'.</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:16:02</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/sass-3.6.0/test/sass/functions_test.rb</Filename>
+      <Linenumber>1741</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="2" uid="{4fa870d4-6de7-431e-aa08-1e2758de70ce}">
+    <Summary>WARNING: The `$arg_1' argument for `deprecated-arg-fn()' has been renamed to `$arg1'.</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:16:02</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/sass-3.6.0/test/sass/functions_test.rb</Filename>
+      <Linenumber>1748</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="2" uid="{c22d63c8-969a-40f0-b33b-91c09323fa30}">
+    <Summary>WARNING: The `$arg_2' argument for `deprecated-arg-fn()' has been renamed to `$arg2'.</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:16:02</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/sass-3.6.0/test/sass/functions_test.rb</Filename>
+      <Linenumber>1749</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="2" uid="{e026964a-34a2-4fc2-a1c9-b3f206394f37}">
+    <Summary>WARNING: In #{template_loc}:</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:16:02</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/sass-3.6.0/test/sass/plugin_test.rb</Filename>
+      <Linenumber>250</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="2" uid="{cb855f49-4aec-4a23-9bad-461d61be75bc}">
+    <Summary>WARNING: this is a warning</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:16:02</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/sass-3.6.0/test/sass/scss/scss_test.rb</Filename>
+      <Linenumber>127</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="2" uid="{d21bc10a-eea7-4719-9d65-cd852d0253c5}">
+    <Summary>WARNING: this is a mixin</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:16:02</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/sass-3.6.0/test/sass/scss/scss_test.rb</Filename>
+      <Linenumber>130</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="2" uid="{045c90bb-d2fb-4a63-8fc9-88cb577054eb}">
+    <Summary>WARNING: Mixin foo takes 2 arguments but 4 were passed.</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:16:02</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/sass-3.6.0/test/sass/scss/scss_test.rb</Filename>
+      <Linenumber>1614</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="2" uid="{abbbd8b4-eec0-41f2-ba5e-e62e9caf3e3d}">
+    <Summary>WARNING: Function foo takes 2 arguments but 4 were passed.</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:16:02</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/sass-3.6.0/test/sass/scss/scss_test.rb</Filename>
+      <Linenumber>2046</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="2" uid="{643b6faf-bfd9-41cc-9e75-34470b6e3bad}">
+    <Summary>WARNING: UtilTest::FooBar#old_method will be removed in a future version of Sass.&quot;) { FooBar.new.old_method }</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:16:02</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/sass-3.6.0/test/sass/util_test.rb</Filename>
+      <Linenumber>260</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="2" uid="{12ce0189-e7dd-407a-8a1a-a808c9b8449b}">
+    <Summary>WARNING: UtilTest::FooBar#old_method_with_custom_message will be removed in a future version of Sass.</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:16:02</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/sass-3.6.0/test/sass/util_test.rb</Filename>
+      <Linenumber>262</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="2" uid="{e6636a3f-402f-4f80-8318-c9697a40791a}">
+    <Summary>WARNING: UtilTest::FooBar.another_old_method will be removed in a future version of Sass.&quot;) { FooBar.another_old_method }</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:16:02</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/sass-3.6.0/test/sass/util_test.rb</Filename>
+      <Linenumber>265</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="3" uid="{bcc429fa-cb00-42c1-a266-5f8f65638381}">
+    <Summary>NOTE: If you need to clear the logger completely, do so *after*</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:16:02</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen.rb</Filename>
+      <Linenumber>9</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{dd89d45e-1a66-4555-9f34-89a7832331df}">
+    <Summary>TODO: should use a mutex for this</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:16:02</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen.rb</Filename>
+      <Linenumber>47</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{0e71dd60-a975-4232-9a24-10a9cc0b0533}">
+    <Summary>TODO: only used by tests</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:16:02</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/adapter/base.rb</Filename>
+      <Linenumber>10</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{8e8cf12f-0740-4a60-ab4c-c670dd98f439}">
+    <Summary>TODO: it's a separate method as a temporary workaround for tests</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:16:02</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/adapter/base.rb</Filename>
+      <Linenumber>30</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{37c35b45-aedf-4baf-bdda-ed25cbe47fd9}">
+    <Summary>TODO: separate config per directory (some day maybe)</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:16:02</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/adapter/base.rb</Filename>
+      <Linenumber>49</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{811765d0-a244-41a9-a45e-10a4190bbb75}">
+    <Summary>TODO: allow backend adapters to pass specific invalidation objects</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:16:02</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/adapter/base.rb</Filename>
+      <Linenumber>111</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{3024da40-95be-4d63-975e-6c2f8f6df279}">
+    <Summary>TODO: fix (flatten, array, compact?)</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:16:02</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/adapter/config.rb</Filename>
+      <Linenumber>15</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="3" uid="{98d5d5c7-85c1-477f-8852-96bf1798e96b}">
+    <Summary>NOTE: each directory gets a DIFFERENT callback!</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:16:02</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/adapter/darwin.rb</Filename>
+      <Linenumber>35</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="3" uid="{9dae99be-2fe9-49e8-9fb0-77f0f6d4ca83}">
+    <Summary>NOTE: _run is called within a thread, so run every other</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:16:02</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/adapter/darwin.rb</Filename>
+      <Linenumber>49</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{f0421f34-3844-4222-b213-c658dcb7e045}">
+    <Summary>TODO: does this preserve symlinks?</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:16:02</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/adapter/darwin.rb</Filename>
+      <Linenumber>60</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="3" uid="{3089999a-366c-4284-96c0-ee50591c4b78}">
+    <Summary>NOTE: while passing local variables to the block below is not</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:16:02</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/adapter/darwin.rb</Filename>
+      <Linenumber>75</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="3" uid="{3f4b21a7-79c9-4e1d-b2f3-d6f1c97f04ca}">
+    <Summary>NOTE: avoid using event.absolute_name since new API</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:16:02</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/adapter/linux.rb</Filename>
+      <Linenumber>44</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{17119887-bb38-454a-88cb-b64a8bbcc2d7}">
+    <Summary>TODO: warn if nap_time is negative (polling too slow)</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:16:02</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/adapter/polling.rb</Filename>
+      <Linenumber>26</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{25e9af26-555c-4284-8631-247d1344bb32}">
+    <Summary>TODO: check if watched dir?</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:16:02</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/adapter/windows.rb</Filename>
+      <Linenumber>69</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{a0ebc268-ebe2-43ab-9bf5-2043bdb4c9c8}">
+    <Summary>TODO: is attrib really passed?</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:16:03</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/adapter/windows.rb</Filename>
+      <Linenumber>90</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{308f3788-fcb5-47bf-9c7f-cf51db51ef06}">
+    <Summary>TODO: rename to Snapshot</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:16:03</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/change.rb</Filename>
+      <Linenumber>5</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{0f906cd3-9913-436f-a885-c24c31b6a9f7}">
+    <Summary>TODO: test this class for coverage</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:16:03</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/change.rb</Filename>
+      <Linenumber>7</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="3" uid="{17df6f1d-3d25-4379-9fad-536ecb820b35}">
+    <Summary>NOTE: POSSIBLE RECURSION</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:16:03</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/change.rb</Filename>
+      <Linenumber>54</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{3aae6a76-8f8c-403f-9d6b-976fb417f14f}">
+    <Summary>TODO: fix - use a queue instead</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:16:03</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/change.rb</Filename>
+      <Linenumber>55</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{5b48dd15-f482-47e8-aa7d-f46b2568b4ff}">
+    <Summary>TODO: refactor (turn it into a normal object, cache the stat, etc)</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:16:03</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/directory.rb</Filename>
+      <Linenumber>4</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{7938a78e-9324-40bf-a23c-5343657c306a}">
+    <Summary>TODO: use children(with_directory: false)</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:16:03</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/directory.rb</Filename>
+      <Linenumber>13</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{b9c32bc1-d05a-424a-b01b-e6ee47f5d623}">
+    <Summary>TODO: this is not tested properly</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:16:03</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/directory.rb</Filename>
+      <Linenumber>35</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{ebc5d008-463d-4039-ae29-53061b125d15}">
+    <Summary>TODO: path not tested</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:16:03</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/directory.rb</Filename>
+      <Linenumber>45</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{13902f5d-549f-4e6f-ae1e-bc27e0f4d399}">
+    <Summary>TODO: this is a hack with insufficient testing</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:16:03</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/directory.rb</Filename>
+      <Linenumber>59</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{040e22ab-01bb-4cf2-98a1-be82dbab544d}">
+    <Summary>TODO: use a dedicated Event class</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:16:03</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/directory.rb</Filename>
+      <Linenumber>70</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{1cb9032a-fde3-4831-85df-891bddf6228a}">
+    <Summary>TODO: use a Fiber instead?</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:16:03</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/event/loop.rb</Filename>
+      <Linenumber>39</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{73378d3f-2a85-471d-a840-a393360edbd7}">
+    <Summary>TODO: works?</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:16:03</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/event/loop.rb</Filename>
+      <Linenumber>56</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{954e7088-6746-491e-89bd-b2d45bf9c445}">
+    <Summary>TODO: implement this properly instead of checking the state at arbitrary</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:16:03</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb</Filename>
+      <Linenumber>10</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{91d4c746-adcc-460b-bc20-efe7ca5c1f3b}">
+    <Summary>TODO: may not be a good idea?</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:16:03</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb</Filename>
+      <Linenumber>46</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{8f375218-96cd-4d3b-8793-11f7a4a99791}">
+    <Summary>TODO: long sleep may not be a good idea?</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:16:03</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb</Filename>
+      <Linenumber>83</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{1ed5b920-477e-4bbe-9886-02b77839e1b0}">
+    <Summary>TODO: is this broken?</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:16:03</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/listener/config.rb</Filename>
+      <Linenumber>6</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="3" uid="{baf13a9e-4f5a-4641-ac5e-ec3265016adb}">
+    <Summary>NOTE: should be provided by adapter if possible</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:16:03</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/listener/config.rb</Filename>
+      <Linenumber>7</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{3c6c9308-bb64-4be8-a194-efc64363141b}">
+    <Summary>TODO: adapter could be nil at this point (shutdown)</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:16:03</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/queue_optimizer.rb</Filename>
+      <Linenumber>23</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{ca0f5bb6-353b-4a6d-978b-ffb8b335e3e5}">
+    <Summary>TODO: avoid checking if path exists and instead assume the events are</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:16:03</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/queue_optimizer.rb</Filename>
+      <Linenumber>72</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{37f0cb12-b78d-4575-951f-a2ac0cc9bc20}">
+    <Summary>TODO: one Record object per watched directory?</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:16:03</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/record.rb</Filename>
+      <Linenumber>7</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{7f03a6c6-6007-471a-8ef3-ae2af80cfe79}">
+    <Summary>TODO: deprecate</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:16:03</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/record.rb</Filename>
+      <Linenumber>8</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{818fabd3-8d51-488e-a49b-afade308da81}">
+    <Summary>TODO: test with a file name given</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:16:03</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/record.rb</Filename>
+      <Linenumber>62</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{adca89d1-0a95-453c-9b72-4aeed1fe09a8}">
+    <Summary>TODO: test other permissions</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:16:03</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/record.rb</Filename>
+      <Linenumber>63</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{2c5d3815-60db-455c-8a2d-2c8200879e01}">
+    <Summary>TODO: test with mixed encoding</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:16:03</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/record.rb</Filename>
+      <Linenumber>64</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="3" uid="{e32c15e9-df4f-40d2-8d06-9f09772f6520}">
+    <Summary>NOTE: children() implicitly tests if dir</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:16:03</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/record.rb</Filename>
+      <Linenumber>104</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{5bfc108f-c719-4dbf-a4c1-ba005b6db5fe}">
+    <Summary>TODO: switch type and path places - and verify</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:16:03</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/silencer.rb</Filename>
+      <Linenumber>69</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{fb3f5fd0-b3e7-4115-aad9-d1a07a67b11d}">
+    <Summary>TODO: Avoid this</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:16:03</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/selenium-webdriver-3.14.0/lib/selenium/webdriver/common/port_prober.rb</Filename>
+      <Linenumber>27</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{b09dd58d-eef2-40f2-942c-f09e7764df4c}">
+    <Summary>TODO: must be a better way..</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:16:03</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/selenium-webdriver-3.14.0/lib/selenium/webdriver/common/profile_helper.rb</Filename>
+      <Linenumber>45</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{c6b5db2a-bda0-4651-a696-76415c65b01c}">
+    <Summary>TODO: clean this up</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:16:03</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/selenium-webdriver-3.14.0/lib/selenium/webdriver/firefox/profile.rb</Filename>
+      <Linenumber>80</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{58cbd308-cf2c-46c1-b67f-1d7ddfe9fcae}">
+    <Summary>TODO: rework file detectors before Selenium 4.0</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:16:03</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/selenium-webdriver-3.14.0/lib/selenium/webdriver/remote/oss/bridge.rb</Filename>
+      <Linenumber>365</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{e2e71aaa-59d0-4b22-9def-f5b34f0cfea3}">
+    <Summary>TODO: rework file detectors before Selenium 4.0</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:16:03</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/selenium-webdriver-3.14.0/lib/selenium/webdriver/remote/w3c/bridge.rb</Filename>
+      <Linenumber>362</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{322f5a9b-3e95-45ee-90eb-c0c48a7d42ae}">
+    <Summary>TODO: doesn't this need to be a has_many :through?</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:16:03</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/shoulda-matchers-3.1.2/spec/support/unit/model_creators/active_record/has_and_belongs_to_many.rb</Filename>
+      <Linenumber>62</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="3" uid="{3c01c5e6-a81b-4361-b5ae-3b01cacba350}">
+    <Summary>NOTE: This helper is currently not implemented and should be</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:16:03</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/sprockets-3.7.2/lib/sprockets/context.rb</Filename>
+      <Linenumber>183</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="2" uid="{31f5a351-308f-4243-a7a6-49889bff00a8}">
+    <Summary>WARNING: #{message} #{ deprecation_caller_message }&quot;</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:16:03</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/sprockets-3.7.2/lib/sprockets/deprecation.rb</Filename>
+      <Linenumber>47</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{f848cb22-464a-4ac8-9311-4a9a9a89f17b}">
+    <Summary>TODO: Rename function.</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:16:03</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/sprockets-3.7.2/lib/sprockets/utils.rb</Filename>
+      <Linenumber>210</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{a47416c9-e030-4fc1-a463-8a5102f7260d}">
+    <Summary>TODO: eh, we should be able to use a form of locate that returns</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:16:04</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/sprockets-rails-3.2.1/lib/sprockets/rails/context.rb</Filename>
+      <Linenumber>22</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="0" uid="{c84c36c6-f288-416d-a2e2-af96cb0b85bf}">
+    <Summary>FIXME: what exactly are we rescuing?</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:16:04</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/sprockets-rails-3.2.1/lib/sprockets/rails/helper.rb</Filename>
+      <Linenumber>219</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{c71c468e-f497-4244-a45c-5c9955aec52b}">
+    <Summary>TODO: Implement #ask for Thor::Shell::HTML</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:16:04</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/thor-0.20.0/lib/thor/shell/html.rb</Filename>
+      <Linenumber>69</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="2" uid="{8da930d2-4c8e-4d60-99f4-08bdfc70d0ec}">
+    <Summary>WARNING: unable to load thorfile #{path.inspect}: #{e.message}&quot;)</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:16:04</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/thor-0.20.0/lib/thor/util.rb</Filename>
+      <Linenumber>158</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{ee2beece-663c-44bf-b37e-79e756197a8f}">
+    <Summary>TODO: why are we bounds checking?</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:16:04</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/thread_safe-0.3.6/lib/thread_safe/atomic_reference_cache_backend.rb</Filename>
+      <Linenumber>261</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="3" uid="{19d548d0-5c74-43b7-8664-6f5738e98186}">
+    <Summary>NOTE: a neat idea of writing a c-ext to manually perform atomic</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:16:04</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/thread_safe-0.3.6/lib/thread_safe/mri_cache_backend.rb</Filename>
+      <Linenumber>6</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="2" uid="{852674fe-0975-44aa-b9bb-878ac714eeb4}">
+    <Summary>WARNING: all public methods of the class must operate on the @backend</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:16:04</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/thread_safe-0.3.6/lib/thread_safe/non_concurrent_cache_backend.rb</Filename>
+      <Linenumber>3</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="2" uid="{0c52986d-e44e-4206-854c-02f89da2b9c0}">
+    <Summary>WARNING: Mutex_m is a non-reentrant lock, so the synchronized methods are</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:16:04</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/thread_safe-0.3.6/lib/thread_safe/synchronized_cache_backend.rb</Filename>
+      <Linenumber>5</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{08ae7da5-36b0-42af-9d28-26e59aa86703}">
+    <Summary>TODO: this only adds padding after the :value slot, need to find a way to add padding before the slot</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:16:04</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/thread_safe-0.3.6/lib/thread_safe/util/striped64.rb</Filename>
+      <Linenumber>72</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="3" uid="{56e4f837-3168-4ac9-9e8f-6f87903c28e9}">
+    <Summary>NOTE: &lt;= 0.2.0 used Threadsafe::VERSION</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:16:04</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/thread_safe-0.3.6/lib/thread_safe/version.rb</Filename>
+      <Linenumber>5</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{c0381786-eebc-448e-8f39-70826ea5c6aa}">
+    <Summary>TODO: What is @fail_app?</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:16:04</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/warden-1.2.7/spec/warden/manager_spec.rb</Filename>
+      <Linenumber>38</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{5bb6f1b9-f670-4776-9bee-d7a338397a81}">
+    <Summary>TODO: What is @fail_app?</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:16:04</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/warden-1.2.7/spec/warden/manager_spec.rb</Filename>
+      <Linenumber>48</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{9dbecbba-a251-4d19-8a8f-1409773073fd}">
+    <Summary>TODO: What is @fail_app?</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:16:04</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/warden-1.2.7/spec/warden/manager_spec.rb</Filename>
+      <Linenumber>58</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{85b02cee-2701-4efe-ac21-a5b1e1773c60}">
+    <Summary>TODO: What is @fail_app?</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:16:04</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/warden-1.2.7/spec/warden/manager_spec.rb</Filename>
+      <Linenumber>90</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{d24f2e2f-cc67-48b6-ad95-88f2b83db777}">
+    <Summary>TODO: Not being called at all. What's this?</Summary>
+    <Description></Description>
+    <Created>2018-10-05, 09:16:04</Created>
+    <Resource>
+      <Filename>.bundle/ruby/2.5.0/gems/warden-1.2.7/spec/warden/strategies/base_spec.rb</Filename>
+      <Linenumber>64</Linenumber>
+    </Resource>
+  </Task>
+</Tasks>

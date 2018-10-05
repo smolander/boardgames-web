@@ -1,16 +1,8 @@
 require 'rails_helper'
+require 'helpers'
 
-def login_test_user(id = "")
-  test_user = User.new(email: "test#{id}@test.com", password: "test@123")
-  test_user.save!
-  sign_in(test_user)
-  return test_user
-end
-
-def add_test_game(user, id="")
-  test_game = Game.new(name: "testspel#{id}", user: user, minimum_playtime: 10, maximum_playtime: 60, minimum_players: 1, maximum_players: 4)
-  test_game.save!
-  return test_game
+RSpec.configure do |c|
+  c.include Helpers
 end
 
 RSpec.describe "Routes", :type => :routing do
@@ -90,6 +82,44 @@ RSpec.describe GamesController, type: :controller do
       it_behaves_like 'login_required_page', :edit, 1
     end
   end
+  
+  describe 'Listing the games' do
+    render_views
+    before do
+      
+      test_user = login_test_user
+      create(:game, user: test_user)
+      test_user_2 = login_test_user("tester2@serv.com")
+      create(:game,  name: "testspel 2",  user: test_user_2,  minimum_players: 4,  maximum_players: 8)
+      create(:game,  name: "testspel 3",  user: test_user_2)
+    end
+    
+    context 'without filter' do
+      before do
+        get(:index,  :format => :json)
+      end
+    
+      it 'lists the games for the user, but not for other users' do
+        name_list = JSON.parse(response.body).pluck("name")
+        expect(name_list).not_to include("testspel")
+        expect(name_list).to include("testspel 2")
+        expect(name_list).to include("testspel 3")
+      end
+    end
+  
+    context 'with filtering on number of players' do
+      before do
+        get(:index,  :format => :json,  :params => {:commit => "Filter", :num_play => 3})
+      end
+      
+      it 'lists the game for the user that is also consistent with the filter' do
+        name_list = JSON.parse(response.body).pluck("name")
+        expect(name_list).not_to include("testspel")
+        expect(name_list).not_to include("testspel 2")
+        expect(name_list).to include("testspel 3")
+      end
+    end
+  end
 
   describe 'Adding a new game' do
 
@@ -155,7 +185,7 @@ RSpec.describe GamesController, type: :controller do
       end
       context 'For another user' do
         before do
-          @cur_user = login_test_user("2")
+          @cur_user = login_test_user("2@3.com")
           form_data = {'game' => {:name => 'testspel', :minimum_players => 1, :maximum_players => 4, :minimum_playtime => 10, :maximum_playtime => 60}}
           post(:create, :params => form_data)
         end
@@ -180,8 +210,8 @@ RSpec.describe GamesController, type: :controller do
       let(:search_term) {"power grid"}
       let(:search_list) {controller.search_bgg(search_term)}
       let(:name_hash) {controller.make_name_hash(search_list)}
-      let(:detailed_search) {controller.get_bgg_details(@name_hash.first[1])}
-      let(:parsed_details) {controller.parse_bgg_details(@detailed_search)}
+      let(:detailed_search) {controller.get_bgg_details(name_hash.first[1])}
+      let(:parsed_details) {controller.parse_bgg_details(detailed_search)}
 
       before do
 
@@ -276,14 +306,14 @@ RSpec.describe GamesController, type: :controller do
         testgame = add_test_game(test_user)
         @before_count = Game.count
         sign_out(test_user)
-        another_user = login_test_user("a")
+        another_user = login_test_user("testare_2@mail.com")
         delete(:destroy, params: {:id => testgame.attributes["_id"]})
 
       end
 
 
       it 'informs that the game belongs to the wrong user' do
-        ap(response)
+        expect(controller.view_assigns["notice"]).to eql("Game not deleted since it belongs to another user.")
       end
       it_behaves_like  "not changing database", Game, :found
     end
@@ -294,19 +324,69 @@ RSpec.describe GamesController, type: :controller do
       before do
         test_user = login_test_user
         testgame = add_test_game(test_user)
-        ap testgame.object_id
         @before_count = Game.count
         delete(:destroy, params: {:id => testgame.attributes["_id"]})
       end
 
-      it 'deletes the game from the db' do
+      it 'deletes the game from the db' do 
         expect(Game.count).to eq(@before_count - 1)
       end
-      it 'redirects to the appropriate page'
+      it 'redirects to the appropriate page' do
+        hostname = response.request.env["HTTP_HOST"]
+        redirect_location = response["Location"]
+        expect(redirect_location).to eql("http://"+hostname+"/games")
+        expect(response).to have_http_status(:redirect)
+      end
     end
   end
 
   describe 'calling the update function' do
 
+    let(:new_game_data) {{name: "test_2"}}#, minimum_players: 3, maximum_players: 7, minimum_playtime: 32, maximum_playtime: 107, typical_playtime: 96, age: 12}}
+    let(:test_user) { login_test_user}
+    let(:testgame) {add_test_game(test_user)}
+
+    context 'without being logged in' do
+      before do
+        sign_out(test_user)
+        patch(:update, params: {:id => testgame.attributes["_id"], :game => new_game_data})
+      end
+
+      it 'does not update the game' do
+        expect(testgame).to eql(Game.find(testgame.id))
+      end
+
+    end
+
+    context 'with being logged in, but not the owner of the game' do
+
+      before do
+        sign_out(test_user)
+        login_test_user("test2@mail.com")
+        patch(:update, params: {:id => testgame.attributes["_id"], :game => new_game_data})
+
+      end
+
+
+      it 'informs that the game belongs to the wrong user' do
+        expect(controller.view_assigns["notice"]).to eql("Game not updated since it belongs to another user.")
+      end
+
+      it 'does not update the game' do
+        expect(testgame.name).to eql(Game.find(testgame.id).name)
+      end
+    end
+
+
+    context 'with being logged in as the owner of the game' do
+
+      before do
+        patch(:update, params: {:id => testgame.attributes["_id"], :game => new_game_data})
+      end
+
+      it 'updates the game' do
+        expect(testgame.name).not_to eq(Game.find(testgame.id).name)
+      end
+    end
   end
 end

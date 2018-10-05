@@ -5,7 +5,6 @@ class GamesController < ApplicationController
   before_action :authenticate_user!
 
   def search_bgg(name)
-    ap "search_bgg"
     uri = "https://www.boardgamegeek.com/xmlapi/search?search=" + URI.encode(name)
     result = Nokogiri::HTML(open(uri))
 
@@ -25,7 +24,6 @@ class GamesController < ApplicationController
 
   def get_bgg_details(id)
     uri = "https://www.boardgamegeek.com/xmlapi/boardgame/" + id
-    puts "Details gotten for " + uri
     result = Nokogiri::HTML(open(uri))
   end
 
@@ -65,15 +63,11 @@ class GamesController < ApplicationController
   end
 
   def filtered_game_list(filter_params)
-    @games = Game.all
-    @games = @games.where(:age.lte => filter_params["age"]) if filter_params["age"] != ""
-    @games = @games.where(:maximum_playtime.lte => filter_params["play_time_max"]) if filter_params["play_time_max"] != ""
-    @games = @games.where(:minimum_playtime.gte => filter_params["play_time_min"]) if filter_params["play_time_min"] != ""
-    @games = @games.where(:minimum_players.lte => filter_params["num_play"]) if filter_params["num_play"] != ""
-    @games = @games.where(:maximum_players.gte => filter_params["num_play"]) if filter_params["num_play"] != ""
-
-
-
+    @games = @games.where(:age.lte => filter_params["age"]) if (filter_params["age"] != "" && filter_params["age"] != nil)
+    @games = @games.where(:maximum_playtime.lte => filter_params["play_time_max"]) if (filter_params["play_time_max"] != "" && filter_params["play_time_max"] != nil)
+    @games = @games.where(:minimum_playtime.gte => filter_params["play_time_min"]) if (filter_params["play_time_min"] != "" && filter_params["play_time_min"] != nil)
+    @games = @games.where(:minimum_players.lte => filter_params["num_play"]) if (filter_params["num_play"] != "" && filter_params["num_play"] != nil)
+    @games = @games.where(:maximum_players.gte => filter_params["num_play"]) if (filter_params["num_play"] != "" && filter_params["num_play"] != nil)
     return @games
 
   end
@@ -81,10 +75,10 @@ class GamesController < ApplicationController
   # GET /games
   # GET /games.json
   def index
+    @games = Game.all
+    @games = @games.where(:user => current_user)
     if params["commit"] == "Filter"
       @games = filtered_game_list(params)
-    else
-      @games = Game.all
     end
   end
 
@@ -114,7 +108,7 @@ class GamesController < ApplicationController
   # POST /games.json
   def create
     @game = Game.new(game_params)
-    @game.user = current_user.id
+    @game.user = current_user
     respond_to do |format|
       if @game.save
         format.html { redirect_to @game, notice: 'Game was successfully created.' }
@@ -129,9 +123,15 @@ class GamesController < ApplicationController
   # PATCH/PUT /games/1
   # PATCH/PUT /games/1.json
   def update
+    if @game.user == current_user
+      updated = @game.update(game_params)
+      @notice = "Game was sucessfully updated."
+    else
+      @notice = "Game not updated since it belongs to another user."
+    end
     respond_to do |format|
-      if @game.update(game_params)
-        format.html { redirect_to @game, notice: 'Game was successfully updated.' }
+      if updated
+        format.html { redirect_to @game, notice: @notice }
         format.json { render :show, status: :ok, location: @game }
       else
         format.html { render :edit }
@@ -143,11 +143,14 @@ class GamesController < ApplicationController
   # DELETE /games/1
   # DELETE /games/1.json
   def destroy
-    puts("DESTROYING")
-    ap(@game)
-    @game.destroy
+    if @game.user == current_user
+      @game.destroy
+      @notice = 'Game was successfully destroyed.'
+    else
+      @notice = 'Game not deleted since it belongs to another user.'
+    end
     respond_to do |format|
-      format.html { redirect_to games_url, notice: 'Game was successfully destroyed.' }
+      format.html { redirect_to games_url, notice: @notice }
       format.json { head :no_content }
     end
   end

@@ -1,15 +1,19 @@
 class UsersController < ApplicationController
   before_action :set_user, only: [:show, :edit, :update, :destroy]
+  before_action :authenticate_user!,  except: [:create]
+  load_and_authorize_resource except: [:create]
 
   # GET /users
   # GET /users.json
   def index
+    ap "Getting index!"
     @users = User.all
   end
 
   # GET /users/1
   # GET /users/1.json
   def show
+    ap "Or does it go here?"
   end
 
   # GET /users/new
@@ -24,7 +28,11 @@ class UsersController < ApplicationController
   # POST /users
   # POST /users.json
   def create
+    ap "Is this where it goes?"
     @user = User.new(user_params)
+    if request.parameters["user"]["admin"] && user_signed_in? && current_user.has_role?(:admin)
+      @user.add_role(:admin)
+    end
 
     respond_to do |format|
       if @user.save
@@ -40,11 +48,23 @@ class UsersController < ApplicationController
   # PATCH/PUT /users/1
   # PATCH/PUT /users/1.json
   def update
+    ap "Patching!"
+    if params["user"]["admin"].present? && current_user.has_role?(:admin)
+      if params["user"]["admin"] == "1"
+        @user.add_role(:admin)
+      elsif @user != current_user
+        @user.remove_role(:admin)
+      end
+    end
     respond_to do |format|
       if @user.update(user_params)
-        format.html { redirect_to @user, notice: 'User was successfully updated.' }
+        
+        ap "User update worked!"
+        #@notice = 'User was successfully updated.'
+        format.html { redirect_to :users, notice: "User #{user_params[:email]} was successfully updated." }
         format.json { render :show, status: :ok, location: @user }
       else
+        ap "User update did not work!"
         format.html { render :edit }
         format.json { render json: @user.errors, status: :unprocessable_entity }
       end
@@ -70,5 +90,7 @@ class UsersController < ApplicationController
     # Never trust parameters from the scary internet, only allow the white list through.
     def user_params
       params.fetch(:user, {})
+      params.require(:user).permit(:email, :password, :admin)
     end
+
 end

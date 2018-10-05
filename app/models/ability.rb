@@ -31,8 +31,12 @@ class Ability
     #
     if user.has_role? :admin
       can :manage, :all
+      can :read,  :all
     else
-      can :read, :all
+      #can :read, Games
+      can :manage,  User,  id: user.id
+      can :add, User
+      cannot :index,  User
     end
   end
 end

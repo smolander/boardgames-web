@@ -6,6 +6,8 @@ gem 'rspec'
 gem 'database_cleaner'
 gem 'mongoid-rspec', '~> 4'
 gem 'shoulda-matchers'
+gem 'factory_bot_rails'
+gem 'factory_bot'
 
 #User login
 gem 'devise'

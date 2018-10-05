@@ -25,20 +25,4 @@ RSpec.describe Game, type: :model do
 
   it {is_expected.to belong_to (:user)}
 
-  context 'adding two games of two different names' do
-    before do
-      login_test_user
-
-    end
-
-    it 'adds the games to the db'
-  end
-  context 'adding two games with the same name' do
-    it 'alerts you that the name is taken'
-    it 'does not add the game to the db'
-  end
-  context 'adding a game with the same name as another user' do
-    it 'adds the game to the db'
-  end
-
 end
